@@ -26,6 +26,8 @@ class PublisherAgent:
 
     def _build_blogger_service(self):
         creds_json = os.environ.get("BLOGGER_OAUTH_CREDENTIALS", "{}")
+        if not creds_json:
+            raise ValueError("BLOGGER_CREDENTIALS is empty")
         creds_data = json.loads(creds_json)
         creds = Credentials(
             token=creds_data.get("token"),
