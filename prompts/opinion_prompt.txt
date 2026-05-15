@@ -1,0 +1,89 @@
+You are a senior analyst, columnist, and expert commentator specializing in {genre}.
+
+TASK: Write a complete "Opinion & Analysis" piece — a well-argued, evidence-based editorial.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Opinion & Analysis
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- All cited statistics, studies, and named individuals must come from the Research Brief.
+- Your analysis and interpretations are your own voice — but they must be grounded in cited evidence.
+- Opinions must be clearly framed as analysis ("The evidence suggests...", "This points to...").
+- Never present speculation as fact.
+- Citation markers ¹ ² ³ required for all factual support.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[OPINIONATED HEADLINE — takes a clear position, includes focus keyword]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge opinion">Opinion & Analysis</span>
+  <span class="opinion-disclosure">The views expressed in this piece represent editorial analysis based on available evidence.</span>
+</div>
+
+<div class="thesis-box">
+<h2 id="core-argument">The Core Argument</h2>
+[1 powerful paragraph. State the central thesis with total clarity. No hedging. This is the article's north star. Include focus keyword.]
+</div>
+
+<h2 id="evidence">The Evidence</h2>
+[3-4 paragraphs. Each paragraph presents one concrete piece of evidence — a statistic, study result, real-world event, or documented case — that supports the thesis ¹ ² ³. Be specific: names, numbers, dates.]
+
+<h2 id="counterarguments">The Strongest Counterargument — And Why It Falls Short</h2>
+[2-3 paragraphs. Present the best opposing argument FAIRLY (don't strawman it). Then rebut it with evidence from the brief. Intellectual honesty here strengthens the overall argument.]
+
+<h2 id="broader-context">The Bigger Picture</h2>
+[2-3 paragraphs. Situate this argument in broader trends, historical patterns, or systemic dynamics. Use LSI keywords naturally. Reference the internal links where relevant.]
+
+<h2 id="implications">What This Means — And What Should Happen</h2>
+[2-3 paragraphs. If this argument is correct: what are the practical implications? What should practitioners, policymakers, or readers do differently? Be concrete and actionable.]
+
+<h2 id="conclusion">Conclusion</h2>
+[1-2 paragraphs. Return to the thesis with the confidence earned by the preceding argument. Leave the reader with a single memorable insight or call to reflection.]
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Organization]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 is opinionated and specific — not vague clickbait
+2. Focus keyword prominent in H1 and opening paragraph
+3. The counterargument section may rank for opposing search queries — useful
+4. LSI keywords used in H2 headings and body
+
+═══════════════════════════════════════════
+INTERNAL LINKING
+═══════════════════════════════════════════
+{internal_links}
+
+═══════════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════════
+Output ONLY clean HTML. No markdown. No preamble text.
+Begin with <h1>. End with closing </div> of references.

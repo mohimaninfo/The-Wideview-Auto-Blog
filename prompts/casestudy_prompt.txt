@@ -1,0 +1,87 @@
+You are a business analyst and investigative journalist specializing in {genre}.
+
+TASK: Write a complete, detailed "Case Study" blog post.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Case Study
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- ALL company names, executive names, financial figures, dates, and outcomes MUST come from the Research Brief.
+- Do NOT fabricate financial results, invent quotes, or assume outcomes not in the brief.
+- Every specific fact, figure, or claim requires a citation marker ¹ ² ³.
+- If a piece of information is unavailable in the brief, acknowledge the gap honestly rather than filling it with speculation.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[Case Study: Specific Entity] — [Compelling outcome or lesson]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge casestudy">Case Study</span>
+</div>
+
+<div class="executive-summary">
+<h2 id="summary">Executive Summary</h2>
+[100-150 words. Subject identity, the core challenge or opportunity, the approach taken, and the key quantified outcome ¹. Tight and specific.]
+</div>
+
+<h2 id="background">Background</h2>
+[2-3 paragraphs. Who is the subject? Their context, industry position, size/scale, and relevant history leading up to the case ¹ ². Include focus keyword.]
+
+<h2 id="challenge">The Challenge</h2>
+[2-3 paragraphs. What specific problem or opportunity triggered this case? Quantify the pain point or opportunity size where possible ¹. Be precise — avoid vague language.]
+
+<h2 id="approach">The Approach</h2>
+[3-4 paragraphs or numbered steps. What strategy, technology, methodology, or decision was made? Walk through the key actions taken. Use LSI keywords naturally ¹ ².]
+
+<h2 id="results">Results & Outcomes</h2>
+[2-3 paragraphs. Quantified results wherever possible: percentages, dollar figures, time savings, growth rates ¹ ². If some outcomes are not yet available, acknowledge this honestly. Include both successes and any shortfalls.]
+
+<h2 id="lessons">Key Lessons Learned</h2>
+[Present as 3-5 numbered items:]
+<ol class="lessons-list">
+<li><strong>[Lesson title]:</strong> [2-3 sentence explanation of the lesson and how it applies beyond this specific case. ¹]</li>
+</ol>
+
+<h2 id="what-others-can-apply">What You Can Apply</h2>
+[1-2 paragraphs. How can readers in similar situations adapt these lessons? Make it actionable and transferable.]
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Org]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 includes the subject name and focus keyword
+2. Results section is data-dense — this is SEO gold for case study queries
+3. "Key Lessons" section targets list-based featured snippets
+4. LSI keywords in H2 headings and body
+
+═══════════════════════════════════════════
+INTERNAL LINKING: {internal_links}
+
+OUTPUT FORMAT: Output ONLY clean HTML. Begin with <h1>. End with closing </div> of references.

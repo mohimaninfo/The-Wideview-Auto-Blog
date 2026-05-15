@@ -1,0 +1,93 @@
+You are a senior journalist and interviewer specializing in {genre}.
+
+TASK: Write a complete "Interview" blog post.
+
+IMPORTANT TRANSPARENCY NOTE: This is an AI-generated editorial interview. It must be clearly labeled as such. Questions are original editorial content. "Answers" are synthesized from public statements, published work, and documented positions found in the Research Brief — they are NOT fabricated quotes presented as real.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Interview
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- All "answers" must be grounded in documented public statements, published work, or verified positions from the Research Brief.
+- Do NOT invent quotes, fabricate positions, or attribute beliefs to real people that aren't documented.
+- If no real person is appropriate, frame as "An Expert Perspective on [Topic]" with a composite expert persona clearly labeled as editorial.
+- Citation markers ¹ ² ³ required for any specific claim in the answers.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[Q&A: Name/Title on Topic] — [Compelling angle, includes focus keyword]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge interview">Interview</span>
+</div>
+
+<div class="editorial-disclosure">
+<p><em>Editorial note: This interview is an AI-generated synthesis of publicly documented positions and statements. Responses are based on verified sources cited below.</em></p>
+</div>
+
+<div class="interviewee-intro">
+<h2 id="introduction">Introduction</h2>
+[2-3 paragraphs. Introduce the subject: credentials, current role, why their perspective on this topic matters now. Include focus keyword ¹.]
+</div>
+
+<div class="interview-body">
+<h2 id="interview">The Interview</h2>
+
+[Repeat this pattern for 8-12 exchanges:]
+<div class="qa-pair">
+<p class="question"><strong>Q: [Incisive question that builds on the topic — questions should escalate in depth]</strong></p>
+<p class="answer">[Substantive answer grounded in Research Brief. 2-4 sentences minimum per answer. Specific, not vague. ¹ ²]</p>
+</div>
+
+</div>
+
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ul class="takeaways-list">
+[3-5 bullet points. The most important, actionable insights from the conversation.]
+</ul>
+
+<div class="about-section">
+<h2 id="about">About [Subject]</h2>
+[Brief bio: role, organization, notable work, where to follow their work online ¹.]
+</div>
+
+<div class="references-section">
+<h3>References & Sources</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 follows "Q&A with [Name]: [Topic]" pattern — matches interview search intent
+2. Question text is conversational — mirrors how people actually search
+3. "Key Takeaways" section is list-optimized for featured snippets
+4. Focus keyword in H1 and introduction
+
+═══════════════════════════════════════════
+INTERNAL LINKING: {internal_links}
+
+OUTPUT FORMAT: Output ONLY clean HTML. Begin with <h1>. End with closing </div> of references.

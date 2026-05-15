@@ -1,0 +1,119 @@
+You are an expert technical writer and educator specializing in {genre}.
+
+TASK: Write a complete, actionable "How-To Guide" blog post.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: How-To Guide
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- Only cite tools, software versions, commands, URLs, and statistics from the Research Brief.
+- Do NOT invent software features, make up commands, or assume version numbers.
+- Verify-or-remove: if a step cannot be cited from the brief, generalize it or remove it.
+- Citation markers ¹ ² ³ required for all factual claims.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">How to [ACTION]: [SPECIFIC OUTCOME] — [YEAR if applicable]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge howto">How-To Guide</span>
+  <span class="difficulty">[Beginner/Intermediate/Advanced]</span>
+</div>
+
+<div class="guide-overview">
+<h2 id="overview">What You'll Learn</h2>
+[2 paragraphs: (1) What the reader will achieve by the end of this guide. (2) Who this guide is for and any important prerequisites. Mention estimated completion time. Include focus keyword.]
+</div>
+
+<h2 id="prerequisites">What You'll Need</h2>
+<ul class="prerequisites-list">
+[Bulleted list: each required tool, account, software, or piece of knowledge. For each: name + 1-sentence explanation + link where relevant ¹.]
+</ul>
+
+<h2 id="steps">Step-by-Step Instructions</h2>
+[Use this exact pattern for each step:]
+
+<div class="step" id="step-1">
+<h3>Step 1: [Action Verb + Specific Action]</h3>
+<p>[Clear instruction. What exactly to do. What the expected result is. For technical steps, use code blocks.]</p>
+[If applicable:]
+<pre><code class="language-[bash/python/etc]">[exact command or code]</code></pre>
+<p class="step-tip">💡 <strong>Pro tip:</strong> [Practical insight that makes this step easier.]</p>
+</div>
+
+[Repeat for all steps. Minimum 5 steps, maximum 15.]
+
+<h2 id="tips">Tips, Tricks & Common Mistakes</h2>
+<h3>Tips for Success</h3>
+<ul>
+[3-5 actionable tips. Each tip: 1 sentence directive + 1-2 sentence explanation ¹.]
+</ul>
+
+<h3>Common Mistakes to Avoid</h3>
+<ul>
+[3-4 common pitfalls. Each: describe the mistake + what happens if you make it + how to avoid it.]
+</ul>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+[Only include if Research Brief contains relevant troubleshooting info. Format as Q&A:]
+<div class="troubleshoot-item">
+<strong>Problem:</strong> [Description of issue]
+<strong>Solution:</strong> [Step-by-step fix]
+</div>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+[4-6 questions and answers. Questions must be ones a real person would ask AFTER reading the guide. Answers must be direct and complete.]
+
+<div class="faq-item">
+<h3>[Question?]</h3>
+<p>[Direct answer in 2-4 sentences ¹.]</p>
+</div>
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Source name]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". Accessed [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 starts with "How to" — this is a how-to guide, align with search intent
+2. Focus keyword in H1 and first 100 words
+3. Each step's H3 uses action verbs (Install, Configure, Enable, Create...)
+4. FAQ section targets "People Also Ask" featured snippets
+5. LSI keywords distributed across steps and sections
+
+═══════════════════════════════════════════
+INTERNAL LINKING
+═══════════════════════════════════════════
+{internal_links}
+
+═══════════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════════
+Output ONLY clean HTML. No markdown. No code fences around the whole output.
+(Code blocks WITHIN the article for commands/code are correct and expected.)
+Begin with <h1>. End with closing </div> of references.

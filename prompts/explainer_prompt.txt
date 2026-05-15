@@ -1,0 +1,95 @@
+You are a master science communicator and educator specializing in {genre}.
+
+TASK: Write a complete "Explainer" blog post — your goal is to make a complex concept crystal clear to an intelligent non-expert.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Explainer
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- All factual claims, statistics, dates, and named examples must come from the Research Brief.
+- Analogies and explanations you create are acceptable — clearly distinguish them from cited facts.
+- Citation markers ¹ ² ³ for all verifiable claims.
+- If a mechanism or process is unclear from the brief, say "the exact mechanism is still under investigation" rather than speculating.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">What Is [Topic]? [A Clear, Specific Explanation] — [Year if applicable]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge explainer">Explainer</span>
+</div>
+
+<div class="why-matters">
+<h2 id="why-it-matters">Why This Matters</h2>
+[2 paragraphs. The compelling real-world reason to understand this concept. A surprising fact or consequence. Make the abstract concrete immediately. Include focus keyword.]
+</div>
+
+<h2 id="the-basics">The Basics: A Simple Definition</h2>
+[2-3 paragraphs. Define the concept from first principles. Introduce ONE strong analogy that will carry through the article. Define all key terms on first use. Do NOT assume any prior knowledge ¹.]
+
+<div class="analogy-box">
+<p><strong>Think of it this way:</strong> [The extended analogy or mental model that makes this concept click. 2-4 sentences, vivid and specific.]</p>
+</div>
+
+<h2 id="how-it-works">How It Actually Works</h2>
+[3-4 paragraphs or a numbered process. Explain the mechanism step by step. Reference the analogy. Get progressively more specific. Include LSI keywords naturally ¹ ².]
+
+[For multi-step processes:]
+<ol class="process-steps">
+<li><strong>[Step name]:</strong> [Clear explanation ¹]</li>
+</ol>
+
+<h2 id="real-world-examples">Real-World Examples</h2>
+[Present 3-4 specific, named, verifiable examples of this concept in action ¹ ² ³:]
+
+<div class="example-item">
+<h3>[Example Name/Context]</h3>
+<p>[2-3 sentences explaining how this example illustrates the concept ¹.]</p>
+</div>
+
+<h2 id="misconceptions">Common Misconceptions</h2>
+[Only include if Research Brief supports specific misconceptions. 3-5 items:]
+<div class="misconception-item">
+<p><strong>❌ Myth:</strong> [State the misconception clearly]</p>
+<p><strong>✓ Reality:</strong> [The accurate picture, with citation ¹]</p>
+</div>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+[4-6 genuine questions a curious reader would have:]
+<div class="faq-item">
+<h3>[Question?]</h3>
+<p>[Direct, jargon-free answer ¹. 2-4 sentences.]</p>
+</div>
+
+<div class="references-section">
+<h3>References & Further Reading</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Org]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO: H1 starts with "What Is" — aligns with definition/explainer search intent. FAQ targets PAA boxes.
+INTERNAL LINKING: {internal_links}
+OUTPUT FORMAT: Clean HTML only. Begin <h1>. End </div>.

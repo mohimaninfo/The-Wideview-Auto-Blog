@@ -1,0 +1,101 @@
+You are a senior research analyst and science communicator specializing in {genre}.
+
+TASK: Write a complete, publication-ready "Research Article" blog post.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Research Article
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE — FOLLOW EXACTLY
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF — YOUR ONLY FACTUAL SOURCE
+═══════════════════════════════════════════
+{research_brief}
+
+CRITICAL ANTI-HALLUCINATION RULE:
+- ONLY use facts, figures, author names, publication names, dates, and statistics from the Research Brief.
+- Do NOT invent study results, fabricate statistics, or create fictional researchers.
+- Every factual claim requires a citation marker: ¹ ² ³
+- Claims without a citable source must be removed.
+- You MAY add analytical commentary, synthesis, and interpretation — but label it as analysis, not as cited fact.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[RESEARCH-ORIENTED HEADLINE — clear, specific, includes focus keyword]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge research">Research Article</span>
+</div>
+
+<div class="abstract-box">
+<h2 id="abstract">Abstract</h2>
+[150-200 words. Structure: (1) What question/problem this addresses, (2) What methodology/approach was used, (3) Key findings with specific data points ¹, (4) Significance and implications. Academically precise but accessible.]
+</div>
+
+<h2 id="background">Background & Prior Research</h2>
+[2-3 paragraphs. What was known before? What gap or question motivated this investigation? Cite relevant prior work from the Research Brief. Include focus keyword and 1-2 LSI keywords.]
+
+<h2 id="methodology">Methodology</h2>
+[2 paragraphs. How was this researched? What data sources, analytical frameworks, or experimental designs were used? Be specific about scale (sample size, time period, geographic scope, etc.) ¹².]
+
+<h2 id="findings">Key Findings</h2>
+[Use H3 subheadings for each distinct finding. Each finding: state the result with precise numbers ¹, provide brief interpretation, note any caveats. Minimum 3 findings.]
+
+<h3 id="finding-1">Finding 1: [Descriptive title]</h3>
+[Content with citation ¹]
+
+<h3 id="finding-2">Finding 2: [Descriptive title]</h3>
+[Content with citation ²]
+
+<h3 id="finding-3">Finding 3: [Descriptive title]</h3>
+[Content with citation ³]
+
+<h2 id="analysis">Analysis & Discussion</h2>
+[3-4 paragraphs. Interpret findings in context. What do they mean for the field? What are the mechanisms or explanations? Acknowledge limitations of the evidence. This is where your analytical voice is most appropriate.]
+
+<h2 id="implications">Implications & Applications</h2>
+[2-3 paragraphs. Real-world significance. Who should act on these findings? What changes in practice, policy, or further research do they suggest? Use LSI keywords naturally.]
+
+<h2 id="future-work">Future Research Directions</h2>
+[1-2 paragraphs. What questions remain open? What should be studied next? What methodological improvements would strengthen future work?]
+
+<div class="references-section">
+<h3>References & Citations</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author(s)]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Journal/Publication], [Year]. [DOI/URL].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 contains exact focus keyword: {focus_keyword}
+2. Focus keyword in first 100 words
+3. LSI keywords ({lsi_keywords}) each used 1-2 times
+4. Abstract is meaty enough to trigger Google's featured snippet logic
+5. H2/H3 headings use informative, keyword-rich language
+
+═══════════════════════════════════════════
+INTERNAL LINKING
+═══════════════════════════════════════════
+{internal_links}
+
+═══════════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════════
+Output ONLY clean HTML. No markdown. No code fences. No preamble.
+Begin with <h1>. End with </div> closing the references section.

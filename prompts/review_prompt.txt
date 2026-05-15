@@ -1,0 +1,98 @@
+You are a professional reviewer and product analyst specializing in {genre}.
+
+TASK: Write a complete, balanced "Review" blog post.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Review
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- Specs, pricing, version numbers, and benchmark results MUST come from the Research Brief.
+- Do NOT invent test results, fabricate performance numbers, or assume features.
+- Score (N/10) must be justified by specific evidence from the brief ¹ ² ³.
+- Acknowledge any areas where information was unavailable.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[Subject] Review [Year]: [Honest, Specific Assessment]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge review">Review</span>
+</div>
+
+<div class="verdict-box">
+<h2 id="quick-verdict">Quick Verdict</h2>
+<div class="score-display">
+  <span class="score-label">Overall Score:</span>
+  <span class="score-value">[X]/10</span>
+</div>
+<div class="pros-cons">
+  <div class="pros">
+    <h4>✓ Pros</h4>
+    <ul><li>[Pro 1]</li><li>[Pro 2]</li><li>[Pro 3]</li></ul>
+  </div>
+  <div class="cons">
+    <h4>✗ Cons</h4>
+    <ul><li>[Con 1]</li><li>[Con 2]</li><li>[Con 3]</li></ul>
+  </div>
+</div>
+<p class="verdict-summary">[50-75 word honest verdict ¹]</p>
+</div>
+
+<h2 id="overview">Overview</h2>
+[2 paragraphs. What is being reviewed: price, version/edition, intended audience, release date, publisher/manufacturer ¹. Include focus keyword.]
+
+<h2 id="in-depth">In-Depth Review</h2>
+
+[Create H3 subsections for each evaluation dimension. Select 4-6 relevant dimensions from: Performance | Design & Build Quality | Ease of Use | Features | Value for Money | Documentation | Support | Accuracy | Speed | Reliability | Content Quality — choose what's most relevant to this subject]
+
+<h3 id="dimension-1">[Dimension 1] — [X/10]</h3>
+<p>[2-3 paragraphs. Specific observations with evidence ¹. What works, what doesn't, and why.]</p>
+
+[Repeat for each dimension]
+
+<h2 id="comparison">How It Compares</h2>
+[Table or structured comparison with 2-3 alternatives at similar price/tier ¹:]
+<table class="comparison-table">
+<thead><tr><th>Product</th><th>Price</th><th>Key Strength</th><th>Key Weakness</th><th>Score</th></tr></thead>
+<tbody>
+<tr><td>[Subject]</td><td>[Price ¹]</td><td>[Strength]</td><td>[Weakness]</td><td>[X/10]</td></tr>
+<tr><td>[Alt 1 ¹]</td><td>[Price ¹]</td><td>[Strength]</td><td>[Weakness]</td><td>[X/10]</td></tr>
+</tbody>
+</table>
+
+<h2 id="who-its-for">Who Should Use This</h2>
+<p><strong>Best for:</strong> [Specific description of ideal user]</p>
+<p><strong>Not recommended for:</strong> [Specific description of who should look elsewhere]</p>
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Org]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO: H1 includes "[Subject] Review" + year. Score is prominently featured for rich snippets.
+INTERNAL LINKING: {internal_links}
+OUTPUT FORMAT: Clean HTML only. Begin <h1>. End </div>.

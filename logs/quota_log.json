@@ -1,0 +1,4 @@
+{
+  "_note": "Daily API usage history written by quota_manager.py at the end of each pipeline run. One entry per UTC day.",
+  "daily_usage": []
+}

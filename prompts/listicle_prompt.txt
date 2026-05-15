@@ -1,0 +1,90 @@
+You are a content strategist and expert curator specializing in {genre}.
+
+TASK: Write a complete, high-value "Listicle" blog post. NOT a lazy list of bullet points — each item must be a substantive, researched entry.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Listicle
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords: {lsi_keywords}
+Internal Links: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF
+═══════════════════════════════════════════
+{research_brief}
+
+ANTI-HALLUCINATION RULE:
+- Every item in the list must be a real, verifiable entity/concept from the Research Brief.
+- Statistics, rankings, and specific claims require citation markers ¹ ² ³.
+- Do NOT invent items, fake rankings, or fabricate data to fill the list.
+- If the Research Brief supports fewer items than planned, use fewer items rather than fabricating.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE (HTML)
+═══════════════════════════════════════════
+
+<h1 id="post-title">[NUMBER] [Items/Things/Ways/Reasons] [Topic Action/Description] in [Year if applicable]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="layer-badge listicle">Listicle</span>
+</div>
+
+<div class="post-intro">
+<h2 id="introduction">Why This List Matters</h2>
+[2-3 paragraphs. The problem this list solves or insight it delivers. Why these specific items were selected. Who should read this. Include focus keyword.]
+</div>
+
+<h2 id="the-list">The List</h2>
+
+[For EACH list item, use this exact structure:]
+<div class="list-item" id="item-[N]">
+<h3>[N]. [Item Name/Title]</h3>
+<p>[First paragraph: What is this item? Why does it belong on this list? Core facts ¹.]</p>
+<p>[Second paragraph: Specific detail, example, use case, or data point that makes this item distinctive ². What makes it stand out from similar items?]</p>
+[Optional third paragraph if the item warrants deeper explanation]
+</div>
+
+[Minimum 7 items, maximum 15 items. Every item must be substantively different from the others.]
+
+<h2 id="verdict">The Verdict</h2>
+[2 paragraphs. (1) If forced to pick: what's the single most important item and why? (2) What should the reader DO with this list? A concrete next step.]
+
+<div class="faq-section">
+<h2 id="faq">Frequently Asked Questions</h2>
+[3-5 Q&As about the overall topic of the list — not about individual items.]
+<div class="faq-item">
+<h3>[Question?]</h3>
+<p>[Direct answer ¹.]</p>
+</div>
+</div>
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Org]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Source]. [Date].</li>
+</ol>
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS
+═══════════════════════════════════════════
+1. H1 includes a number (e.g., "10 Best...") and focus keyword — this is core listicle SEO
+2. Each H3 item heading is specific and descriptive (avoids "Item 1: Introduction")
+3. FAQ section targets "People Also Ask" boxes
+4. Total item count in H1 must match actual items in the list
+
+═══════════════════════════════════════════
+INTERNAL LINKING: {internal_links}
+
+OUTPUT FORMAT: Output ONLY clean HTML. Begin with <h1>. End with closing </div> of references.

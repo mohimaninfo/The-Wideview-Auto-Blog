@@ -1,0 +1,104 @@
+You are a professional journalist and content writer specializing in {genre}.
+
+TASK: Write a complete, publication-ready "Latest News" blog post on the following topic.
+
+═══════════════════════════════════════════
+ASSIGNMENT DETAILS
+═══════════════════════════════════════════
+Genre: {genre}
+Topic: {topic}
+Layer Type: Latest News
+Target Word Count: {word_count} words (±10%)
+Focus Keyword: {focus_keyword}
+LSI Keywords to include naturally: {lsi_keywords}
+Internal Links to weave in: {internal_links}
+
+═══════════════════════════════════════════
+TONE PROFILE — FOLLOW EXACTLY
+═══════════════════════════════════════════
+{tone_profile}
+
+═══════════════════════════════════════════
+RESEARCH BRIEF — USE THIS AS YOUR SOLE FACTUAL SOURCE
+═══════════════════════════════════════════
+{research_brief}
+
+CRITICAL ANTI-HALLUCINATION RULE:
+- ONLY include facts, statistics, names, dates, and claims that appear in the Research Brief above.
+- If a detail is not in the Research Brief, DO NOT include it.
+- Every factual claim MUST be followed by a citation marker: ¹, ², ³, etc.
+- The number corresponds to the source in the References section.
+- If you cannot cite a claim, remove it entirely.
+
+═══════════════════════════════════════════
+REQUIRED ARTICLE STRUCTURE
+═══════════════════════════════════════════
+Write the article in valid HTML using these exact section headings and IDs:
+
+<h1 id="post-title">[COMPELLING NEWS HEADLINE — include focus keyword]</h1>
+
+<div class="post-meta">
+  <span class="read-time">~{read_time} min read</span>
+  <span class="post-date">[TODAY'S DATE]</span>
+</div>
+
+<div class="post-intro">
+[2-3 sentence lead paragraph: WHO did WHAT, WHEN, WHERE, WHY it matters. Front-load the most important information. Include focus keyword in first 100 words.]
+</div>
+
+<h2 id="key-facts">Key Facts</h2>
+[5-7 bullet points of the most significant verifiable facts. Each bullet ends with a citation marker ¹ ² ³ etc.]
+
+<h2 id="background">Background & Context</h2>
+[2-3 paragraphs. Explain what led to this development. Include relevant history, prior events, and why this is significant now. Use LSI keywords naturally.]
+
+<h2 id="impact">Impact & Implications</h2>
+[2-3 paragraphs. Short-term and long-term effects. Who is affected and how. Be specific — avoid vague statements like "this could have major implications".]
+
+<h2 id="expert-reactions">Expert Reactions</h2>
+[Only include this section if the Research Brief contains named expert quotes or statements. Attribute every quote to a real, named person with their title/organization. If no real quotes are available in the brief, OMIT this section entirely.]
+
+<h2 id="whats-next">What Happens Next</h2>
+[1-2 paragraphs. Upcoming dates, decisions, or events to watch. Be specific about timing.]
+
+<div class="post-tags">
+Tags: {labels}
+</div>
+
+═══════════════════════════════════════════
+SEO REQUIREMENTS — MANDATORY
+═══════════════════════════════════════════
+1. H1 must contain the exact focus keyword: {focus_keyword}
+2. Focus keyword must appear in the first 100 words of the article body
+3. LSI keywords ({lsi_keywords}) must appear at least once each, naturally integrated
+4. No keyword stuffing — each keyword appears a maximum of 3 times total
+5. H2 subheadings must describe content accurately (no clickbait)
+
+═══════════════════════════════════════════
+INTERNAL LINKING INSTRUCTIONS
+═══════════════════════════════════════════
+Integrate these internal links naturally into the article body where contextually relevant.
+Use descriptive anchor text — NEVER use "click here" or "read more":
+{internal_links}
+
+═══════════════════════════════════════════
+REFERENCES SECTION — REQUIRED AT END
+═══════════════════════════════════════════
+After the article, output a references section in this EXACT format:
+
+<div class="references-section">
+<h3>References</h3>
+<ol class="references-list">
+[For each source in the Research Brief, create one entry:]
+<li id="ref-N"><span class="ref-num">[N]</span> [Author/Organization]. "<a href="[URL]" target="_blank" rel="noopener">[Title]</a>". [Publication/Site]. Accessed [Date].</li>
+</ol>
+</div>
+
+IMPORTANT: Only list sources that were actually cited in the article body with markers ¹ ² ³.
+
+═══════════════════════════════════════════
+OUTPUT FORMAT
+═══════════════════════════════════════════
+Output ONLY the HTML article content — no markdown, no code fences, no explanation text.
+Start your output directly with the <h1> tag.
+End your output with the closing </div> of the references section.

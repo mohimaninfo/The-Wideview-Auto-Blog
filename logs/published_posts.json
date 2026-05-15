@@ -1,0 +1,4 @@
+{
+  "_note": "Append-only log of every post published by Agent 9. Used by Agent 2 (dedup) and Agent 10 (performance). Never delete entries.",
+  "posts": []
+}
