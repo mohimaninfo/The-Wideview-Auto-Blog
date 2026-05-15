@@ -1,0 +1,33 @@
+{
+  "_note": "Append-only log of all taxonomy changes made by Agent 10 (Self-Improvement). Each entry records what changed, when, and why. Never delete entries — this is the audit trail.",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "agent": "manual_init",
+      "run_id": "init",
+      "change_type": "initial_taxonomy",
+      "summary": "Initial taxonomy created with 10 genres, 5 topics each, all layer types.",
+      "affected_nodes": ["Technology", "Health", "Finance", "Science", "Lifestyle", "Education", "Business", "Entertainment", "Environment", "Society"],
+      "before": null,
+      "after": {
+        "genres_count": 10,
+        "topics_count": 50,
+        "layers_count": 9
+      },
+      "performance_data": null
+    }
+  ],
+  "_schema": {
+    "version": "Semantic version string — bump minor on topic add, major on genre add",
+    "timestamp": "ISO 8601 UTC datetime of the change",
+    "agent": "Which agent or process made the change (self_improvement / manual_init)",
+    "run_id": "GitHub Actions run ID or 'init'",
+    "change_type": "One of: initial_taxonomy | add_genre | add_topic | add_layer | deprecate_topic | reweight_topic",
+    "summary": "Human-readable description of what changed and why",
+    "affected_nodes": "List of genre/topic names touched by this change",
+    "before": "Snapshot of the affected taxonomy node(s) before change, or null for additions",
+    "after": "Snapshot of the affected taxonomy node(s) after change",
+    "performance_data": "Optional: page view stats that triggered this change (from Agent 10 weekly review)"
+  }
+}

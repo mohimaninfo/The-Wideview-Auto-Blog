@@ -1,0 +1,471 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2025-01-01",
+  "genres": [
+    {
+      "id": "technology",
+      "label": "Technology",
+      "slug": "technology",
+      "color": "#2563EB",
+      "description": "Cutting-edge tech news, research, and guides covering AI, cybersecurity, gadgets, programming, and robotics.",
+      "tone_profile": "precise, forward-looking, technical yet accessible",
+      "topics": [
+        {
+          "id": "artificial-intelligence",
+          "label": "Artificial Intelligence",
+          "slug": "ai",
+          "layers": ["latest-news", "research-articles", "how-to-guides", "opinion-analysis", "explainers", "reviews", "listicles"]
+        },
+        {
+          "id": "cybersecurity",
+          "label": "Cybersecurity",
+          "slug": "cybersecurity",
+          "layers": ["latest-news", "research-articles", "how-to-guides", "opinion-analysis", "case-studies", "reviews"]
+        },
+        {
+          "id": "gadgets",
+          "label": "Gadgets & Hardware",
+          "slug": "gadgets",
+          "layers": ["latest-news", "reviews", "listicles", "how-to-guides", "explainers"]
+        },
+        {
+          "id": "programming",
+          "label": "Programming",
+          "slug": "programming",
+          "layers": ["how-to-guides", "research-articles", "explainers", "listicles", "reviews", "opinion-analysis"]
+        },
+        {
+          "id": "robotics",
+          "label": "Robotics",
+          "slug": "robotics",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis", "case-studies"]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "label": "Health",
+      "slug": "health",
+      "color": "#16A34A",
+      "description": "Evidence-based health information covering wellness, medical research, nutrition, mental health, and fitness.",
+      "tone_profile": "empathetic, evidence-based, cautious, non-prescriptive",
+      "topics": [
+        {
+          "id": "mental-health",
+          "label": "Mental Health",
+          "slug": "mental-health",
+          "layers": ["latest-news", "research-articles", "how-to-guides", "opinion-analysis", "explainers", "case-studies"]
+        },
+        {
+          "id": "nutrition",
+          "label": "Nutrition & Diet",
+          "slug": "nutrition",
+          "layers": ["research-articles", "how-to-guides", "listicles", "explainers", "opinion-analysis", "reviews"]
+        },
+        {
+          "id": "fitness",
+          "label": "Fitness & Exercise",
+          "slug": "fitness",
+          "layers": ["how-to-guides", "listicles", "research-articles", "explainers", "reviews"]
+        },
+        {
+          "id": "medical-research",
+          "label": "Medical Research",
+          "slug": "medical-research",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis"]
+        },
+        {
+          "id": "wellness",
+          "label": "Wellness & Lifestyle",
+          "slug": "wellness",
+          "layers": ["how-to-guides", "listicles", "explainers", "opinion-analysis", "reviews"]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "slug": "finance",
+      "color": "#D97706",
+      "description": "Analytical personal finance, investing, economics, and market coverage for the informed reader.",
+      "tone_profile": "analytical, data-driven, risk-aware, objective",
+      "topics": [
+        {
+          "id": "investing",
+          "label": "Investing",
+          "slug": "investing",
+          "layers": ["latest-news", "explainers", "how-to-guides", "opinion-analysis", "listicles", "research-articles"]
+        },
+        {
+          "id": "personal-finance",
+          "label": "Personal Finance",
+          "slug": "personal-finance",
+          "layers": ["how-to-guides", "explainers", "listicles", "case-studies", "opinion-analysis"]
+        },
+        {
+          "id": "cryptocurrency",
+          "label": "Cryptocurrency",
+          "slug": "cryptocurrency",
+          "layers": ["latest-news", "explainers", "opinion-analysis", "research-articles", "reviews"]
+        },
+        {
+          "id": "economics",
+          "label": "Economics",
+          "slug": "economics",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis"]
+        },
+        {
+          "id": "startups",
+          "label": "Startups & Venture",
+          "slug": "startups",
+          "layers": ["latest-news", "case-studies", "interviews", "opinion-analysis", "listicles"]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "label": "Science",
+      "slug": "science",
+      "color": "#7C3AED",
+      "description": "Rigorous science journalism spanning space, climate, biology, physics, and emerging discoveries.",
+      "tone_profile": "rigorous, curious, accessible, wonder-inspiring",
+      "topics": [
+        {
+          "id": "space-astronomy",
+          "label": "Space & Astronomy",
+          "slug": "space",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis", "listicles"]
+        },
+        {
+          "id": "climate-environment",
+          "label": "Climate & Environment",
+          "slug": "climate",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis", "case-studies"]
+        },
+        {
+          "id": "biology",
+          "label": "Biology & Life Sciences",
+          "slug": "biology",
+          "layers": ["research-articles", "explainers", "latest-news", "opinion-analysis"]
+        },
+        {
+          "id": "physics",
+          "label": "Physics",
+          "slug": "physics",
+          "layers": ["research-articles", "explainers", "latest-news", "opinion-analysis"]
+        },
+        {
+          "id": "neuroscience",
+          "label": "Neuroscience",
+          "slug": "neuroscience",
+          "layers": ["research-articles", "latest-news", "explainers", "opinion-analysis", "how-to-guides"]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "label": "Lifestyle",
+      "slug": "lifestyle",
+      "color": "#DB2777",
+      "description": "Conversational, aspirational content on travel, food, relationships, self-improvement, and culture.",
+      "tone_profile": "conversational, aspirational, warm, relatable",
+      "topics": [
+        {
+          "id": "travel",
+          "label": "Travel",
+          "slug": "travel",
+          "layers": ["how-to-guides", "listicles", "explainers", "opinion-analysis", "case-studies"]
+        },
+        {
+          "id": "food-cooking",
+          "label": "Food & Cooking",
+          "slug": "food",
+          "layers": ["how-to-guides", "listicles", "reviews", "explainers", "opinion-analysis"]
+        },
+        {
+          "id": "relationships",
+          "label": "Relationships",
+          "slug": "relationships",
+          "layers": ["explainers", "opinion-analysis", "how-to-guides", "listicles", "research-articles"]
+        },
+        {
+          "id": "self-improvement",
+          "label": "Self-Improvement",
+          "slug": "self-improvement",
+          "layers": ["how-to-guides", "listicles", "opinion-analysis", "explainers", "reviews"]
+        },
+        {
+          "id": "home-living",
+          "label": "Home & Living",
+          "slug": "home",
+          "layers": ["how-to-guides", "listicles", "reviews", "explainers"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "label": "Business",
+      "slug": "business",
+      "color": "#0891B2",
+      "description": "Strategic business coverage on leadership, marketing, operations, entrepreneurship, and global commerce.",
+      "tone_profile": "strategic, authoritative, practical, results-oriented",
+      "topics": [
+        {
+          "id": "entrepreneurship",
+          "label": "Entrepreneurship",
+          "slug": "entrepreneurship",
+          "layers": ["case-studies", "interviews", "how-to-guides", "opinion-analysis", "listicles"]
+        },
+        {
+          "id": "marketing",
+          "label": "Marketing & Growth",
+          "slug": "marketing",
+          "layers": ["how-to-guides", "case-studies", "research-articles", "listicles", "opinion-analysis", "reviews"]
+        },
+        {
+          "id": "leadership",
+          "label": "Leadership & Management",
+          "slug": "leadership",
+          "layers": ["interviews", "opinion-analysis", "how-to-guides", "listicles", "case-studies"]
+        },
+        {
+          "id": "remote-work",
+          "label": "Remote Work & Future of Work",
+          "slug": "remote-work",
+          "layers": ["research-articles", "how-to-guides", "opinion-analysis", "listicles", "explainers"]
+        },
+        {
+          "id": "ecommerce",
+          "label": "E-Commerce",
+          "slug": "ecommerce",
+          "layers": ["how-to-guides", "case-studies", "reviews", "listicles", "opinion-analysis"]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "slug": "education",
+      "color": "#EA580C",
+      "description": "Informed coverage of learning science, edtech, higher education, pedagogy, and skills development.",
+      "tone_profile": "informative, encouraging, structured, practical",
+      "topics": [
+        {
+          "id": "edtech",
+          "label": "EdTech & Online Learning",
+          "slug": "edtech",
+          "layers": ["latest-news", "reviews", "how-to-guides", "research-articles", "opinion-analysis"]
+        },
+        {
+          "id": "learning-science",
+          "label": "Learning Science",
+          "slug": "learning-science",
+          "layers": ["research-articles", "explainers", "how-to-guides", "opinion-analysis"]
+        },
+        {
+          "id": "higher-education",
+          "label": "Higher Education",
+          "slug": "higher-education",
+          "layers": ["latest-news", "opinion-analysis", "research-articles", "explainers"]
+        },
+        {
+          "id": "skills-careers",
+          "label": "Skills & Careers",
+          "slug": "skills",
+          "layers": ["how-to-guides", "listicles", "explainers", "opinion-analysis", "interviews"]
+        },
+        {
+          "id": "k12",
+          "label": "K-12 Education",
+          "slug": "k12",
+          "layers": ["latest-news", "research-articles", "how-to-guides", "opinion-analysis", "case-studies"]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environment",
+      "slug": "environment",
+      "color": "#15803D",
+      "description": "Sustainability, conservation, renewable energy, and ecological journalism with a solutions focus.",
+      "tone_profile": "solutions-focused, urgent but constructive, evidence-based",
+      "topics": [
+        {
+          "id": "renewable-energy",
+          "label": "Renewable Energy",
+          "slug": "renewable-energy",
+          "layers": ["latest-news", "research-articles", "explainers", "how-to-guides", "opinion-analysis", "case-studies"]
+        },
+        {
+          "id": "conservation",
+          "label": "Conservation & Biodiversity",
+          "slug": "conservation",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis", "case-studies"]
+        },
+        {
+          "id": "sustainable-living",
+          "label": "Sustainable Living",
+          "slug": "sustainable-living",
+          "layers": ["how-to-guides", "listicles", "explainers", "reviews", "opinion-analysis"]
+        },
+        {
+          "id": "climate-policy",
+          "label": "Climate Policy",
+          "slug": "climate-policy",
+          "layers": ["latest-news", "research-articles", "opinion-analysis", "explainers"]
+        },
+        {
+          "id": "circular-economy",
+          "label": "Circular Economy",
+          "slug": "circular-economy",
+          "layers": ["explainers", "case-studies", "research-articles", "opinion-analysis", "how-to-guides"]
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "label": "Society",
+      "slug": "society",
+      "color": "#9D174D",
+      "description": "Thoughtful analysis of social trends, culture, politics, inequality, and human behavior.",
+      "tone_profile": "thoughtful, balanced, nuanced, humanistic",
+      "topics": [
+        {
+          "id": "social-trends",
+          "label": "Social Trends",
+          "slug": "social-trends",
+          "layers": ["latest-news", "research-articles", "explainers", "opinion-analysis", "listicles"]
+        },
+        {
+          "id": "culture",
+          "label": "Culture & Arts",
+          "slug": "culture",
+          "layers": ["opinion-analysis", "explainers", "reviews", "listicles", "interviews"]
+        },
+        {
+          "id": "inequality",
+          "label": "Inequality & Justice",
+          "slug": "inequality",
+          "layers": ["research-articles", "opinion-analysis", "case-studies", "explainers", "latest-news"]
+        },
+        {
+          "id": "digital-society",
+          "label": "Digital Society",
+          "slug": "digital-society",
+          "layers": ["research-articles", "opinion-analysis", "explainers", "latest-news", "case-studies"]
+        },
+        {
+          "id": "global-affairs",
+          "label": "Global Affairs",
+          "slug": "global-affairs",
+          "layers": ["latest-news", "opinion-analysis", "research-articles", "explainers"]
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "label": "Entertainment",
+      "slug": "entertainment",
+      "color": "#C2410C",
+      "description": "Engaging coverage of film, gaming, music, streaming, and pop culture.",
+      "tone_profile": "engaging, enthusiastic, culturally informed, fun",
+      "topics": [
+        {
+          "id": "film-tv",
+          "label": "Film & TV",
+          "slug": "film-tv",
+          "layers": ["reviews", "listicles", "opinion-analysis", "latest-news", "explainers"]
+        },
+        {
+          "id": "gaming",
+          "label": "Gaming",
+          "slug": "gaming",
+          "layers": ["reviews", "latest-news", "listicles", "how-to-guides", "opinion-analysis", "explainers"]
+        },
+        {
+          "id": "music",
+          "label": "Music",
+          "slug": "music",
+          "layers": ["reviews", "listicles", "opinion-analysis", "latest-news", "interviews"]
+        },
+        {
+          "id": "streaming",
+          "label": "Streaming & Digital Media",
+          "slug": "streaming",
+          "layers": ["latest-news", "reviews", "opinion-analysis", "listicles", "explainers"]
+        },
+        {
+          "id": "pop-culture",
+          "label": "Pop Culture",
+          "slug": "pop-culture",
+          "layers": ["opinion-analysis", "listicles", "explainers", "latest-news"]
+        }
+      ]
+    }
+  ],
+  "layers": {
+    "latest-news": {
+      "label": "Latest News",
+      "slug": "latest-news",
+      "color": "#EF4444",
+      "icon": "📰",
+      "section_template": ["Headline Summary", "Key Facts", "Background Context", "Impact Analysis", "Expert Reaction", "What To Watch", "Sources"]
+    },
+    "research-articles": {
+      "label": "Research Articles",
+      "slug": "research-articles",
+      "color": "#6366F1",
+      "icon": "🔬",
+      "section_template": ["Abstract", "Background & Literature", "Key Findings", "Methodology Overview", "Implications", "Limitations", "Future Directions", "Citations"]
+    },
+    "how-to-guides": {
+      "label": "How-To Guides",
+      "slug": "how-to-guides",
+      "color": "#10B981",
+      "icon": "📋",
+      "section_template": ["Overview & Goal", "Prerequisites", "Tools & Materials", "Step-by-Step Instructions", "Tips & Common Mistakes", "Troubleshooting", "Next Steps", "References"]
+    },
+    "opinion-analysis": {
+      "label": "Opinion & Analysis",
+      "slug": "opinion-analysis",
+      "color": "#F59E0B",
+      "icon": "💡",
+      "section_template": ["Thesis Statement", "Context & Background", "Core Argument", "Counter-Arguments", "Evidence & Data", "Author's Verdict", "References"]
+    },
+    "case-studies": {
+      "label": "Case Studies",
+      "slug": "case-studies",
+      "color": "#8B5CF6",
+      "icon": "📊",
+      "section_template": ["Executive Summary", "Background & Challenge", "Solution Implemented", "Process & Timeline", "Results & Metrics", "Key Lessons", "Applicability", "Sources"]
+    },
+    "interviews": {
+      "label": "Interviews",
+      "slug": "interviews",
+      "color": "#EC4899",
+      "icon": "🎤",
+      "section_template": ["About the Expert", "Introduction", "Q&A Section", "Key Takeaways", "Resources Mentioned"]
+    },
+    "listicles": {
+      "label": "Listicles",
+      "slug": "listicles",
+      "color": "#14B8A6",
+      "icon": "📝",
+      "section_template": ["Introduction & Why This List", "Ranked Items with Descriptions", "Honorable Mentions", "Verdict & Recommendations", "References"]
+    },
+    "reviews": {
+      "label": "Reviews",
+      "slug": "reviews",
+      "color": "#F97316",
+      "icon": "⭐",
+      "section_template": ["Overview & Rating Summary", "What We Tested", "Pros", "Cons", "Performance Details", "Comparison to Alternatives", "Who Should Buy/Use This", "Final Verdict", "Sources"]
+    },
+    "explainers": {
+      "label": "Explainers",
+      "slug": "explainers",
+      "color": "#0EA5E9",
+      "icon": "🔍",
+      "section_template": ["What Is It?", "Why It Matters", "How It Works", "Real-World Examples", "Common Misconceptions", "FAQs", "Further Reading"]
+    }
+  }
+}

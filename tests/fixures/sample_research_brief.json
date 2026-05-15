@@ -1,0 +1,103 @@
+{
+  "_meta": {
+    "agent": "research",
+    "version": "1.0",
+    "generated_at": "2025-01-15T09:00:00Z",
+    "task_id": "task_abc123"
+  },
+  "topic": "GPT-5 Architecture Breakdown",
+  "genre": "Technology",
+  "layer": "Research Articles",
+  "tone_profile": "precise, forward-looking, technical",
+
+  "key_facts": [
+    {
+      "claim": "Large language models have shown emergent capabilities at scale that were not present in smaller versions.",
+      "source_url": "https://arxiv.org/abs/2206.07682",
+      "source_title": "Emergent Abilities of Large Language Models",
+      "source_author": "Wei et al.",
+      "accessed_date": "2025-01-10"
+    },
+    {
+      "claim": "The transformer architecture introduced in 2017 remains the dominant paradigm for large language models.",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "source_title": "Attention Is All You Need",
+      "source_author": "Vaswani et al.",
+      "accessed_date": "2025-01-10"
+    },
+    {
+      "claim": "Mixture-of-Experts (MoE) architectures allow models to scale parameters without proportionally scaling compute.",
+      "source_url": "https://arxiv.org/abs/2101.03961",
+      "source_title": "Switch Transformers: Scaling to Trillion Parameter Models",
+      "source_author": "Fedus et al.",
+      "accessed_date": "2025-01-10"
+    }
+  ],
+
+  "statistics": [
+    {
+      "stat": "GPT-4 has an estimated 1.76 trillion parameters across 8 expert models (MoE).",
+      "source_url": "https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/",
+      "source_title": "GPT-4 Architecture Leaked Details",
+      "source_author": "The Decoder",
+      "accessed_date": "2025-01-10"
+    }
+  ],
+
+  "expert_names": [
+    "Ilya Sutskever",
+    "Noam Shazeer",
+    "Ashish Vaswani"
+  ],
+
+  "key_dates": [
+    {
+      "date": "2017-06-12",
+      "event": "Transformer architecture introduced in 'Attention Is All You Need'"
+    },
+    {
+      "date": "2023-03-14",
+      "event": "GPT-4 publicly released by OpenAI"
+    }
+  ],
+
+  "source_urls": [
+    "https://arxiv.org/abs/2206.07682",
+    "https://arxiv.org/abs/1706.03762",
+    "https://arxiv.org/abs/2101.03961",
+    "https://the-decoder.com/gpt-4-architecture-datasets-costs-and-more-leaked/"
+  ],
+
+  "related_topics": [
+    "Mixture of Experts",
+    "Reinforcement Learning from Human Feedback",
+    "Constitutional AI",
+    "Sparse Attention Mechanisms"
+  ],
+
+  "suggested_internal_links": [
+    {
+      "anchor_text": "how transformers work",
+      "target_slug": "technology/ai/explainers/how-transformers-work"
+    },
+    {
+      "anchor_text": "RLHF explained",
+      "target_slug": "technology/ai/explainers/rlhf-explained"
+    }
+  ],
+
+  "focus_keyword": "GPT-5 architecture",
+  "lsi_keywords": [
+    "large language model architecture",
+    "transformer model",
+    "mixture of experts LLM",
+    "next-generation AI model",
+    "GPT-5 parameters"
+  ],
+
+  "validation_status": {
+    "all_urls_valid": true,
+    "invalid_urls": [],
+    "archive_fallbacks": []
+  }
+}

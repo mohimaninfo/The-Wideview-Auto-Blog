@@ -1,0 +1,21 @@
+{
+  "title": "Sample Research Topic",
+  "key_facts": [
+    {
+      "fact": "Transformer models rely on self-attention.",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "source_name": "Attention Is All You Need",
+      "year": 2017
+    }
+  ],
+  "statistics": [],
+  "expert_quotes": [],
+  "background_context": "Background on neural architectures.",
+  "key_arguments": ["Attention scales better than recurrence."],
+  "counterarguments": [],
+  "source_urls": ["https://arxiv.org/abs/1706.03762"],
+  "suggested_image_search": "transformer neural network diagram",
+  "suggested_video_search": "transformer architecture explained",
+  "focus_keyword": "transformers",
+  "lsi_keywords": ["attention", "nlp"]
+}
