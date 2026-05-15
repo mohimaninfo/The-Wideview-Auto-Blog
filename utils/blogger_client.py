@@ -353,3 +353,38 @@ class BloggerClient:
             publish=publish,
             custom_meta_tags=custom_meta_tags,
         )
+
+# ── One-time OAuth Flow Helper ───────────────────────────────────────────────
+
+from google_auth_oauthlib.flow import InstalledAppFlow
+
+SCOPES = ["https://www.googleapis.com/auth/blogger"]
+
+def run_oauth_flow(client_secrets_file: str):
+
+    flow = InstalledAppFlow.from_client_secrets_file(
+        client_secrets_file,
+        scopes=SCOPES,
+    )
+
+    flow.redirect_uri = "urn:ietf:wg:oauth:2.0:oob"
+
+    auth_url, _ = flow.authorization_url(
+        access_type="offline",
+        prompt="consent"
+    )
+
+    print("\nOpen this URL in your browser:\n")
+    print(auth_url)
+
+    code = input("\nPaste the authorization code here: ")
+
+    flow.fetch_token(code=code)
+
+    creds = flow.credentials
+
+    print("\n=== BLOGGER OAUTH TOKENS ===\n")
+    print(f"CLIENT_ID={creds.client_id}")
+    print(f"CLIENT_SECRET={creds.client_secret}")
+    print(f"REFRESH_TOKEN={creds.refresh_token}")
+    print(f"TOKEN={creds.token}")
