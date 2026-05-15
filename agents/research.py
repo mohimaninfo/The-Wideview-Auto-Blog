@@ -73,9 +73,7 @@ RESEARCH BRIEF FORMAT (respond in JSON):
 
 Produce the research brief now: 
 
-═══════════════════════════════════════════
 OUTPUT FORMAT — STRICT JSON ONLY
-═══════════════════════════════════════════
 
 Return ONLY valid JSON.
 
@@ -84,8 +82,7 @@ Do NOT include:
 - ```json code fences
 - explanations
 - extra text
-
-Your response must start with {{ and end with }}."""
+"""
 
         response_text = call_gemini(
             prompt,
