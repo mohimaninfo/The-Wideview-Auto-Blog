@@ -27,7 +27,7 @@ from google.api_core.exceptions import ResourceExhausted
 logger = logging.getLogger(__name__)
 
 
-def smart_gemini_call(prompt: str, primary_model: str, fallback_model: str = "gemini-2.5-flash", **kwargs):
+def smart_gemini_call(prompt: str, primary_model: str, fallback_model: str = "gemini-3.1-flash-lite", **kwargs):
     """
     Robust Gemini call with automatic fallback on quota exhaustion.
     """
