@@ -30,7 +30,7 @@ QUOTA_STATE_FILE = str(LoggingConfig.QUOTA_STATE)
 
 DAILY_LIMITS = {
     GeminiConfig.PRIMARY_MODEL: GeminiConfig.DAILY_TOKEN_LIMIT,
-    "gemini-2.5-flash": GeminiConfig.DAILY_TOKEN_LIMIT,
+    "gemini-3.1-flash-lite": GeminiConfig.DAILY_TOKEN_LIMIT,
     GeminiConfig.FALLBACK_MODEL: GeminiConfig.DAILY_TOKEN_LIMIT,
     "gemini-1.5-flash": GeminiConfig.DAILY_TOKEN_LIMIT,
 }
@@ -73,13 +73,13 @@ class QuotaManager:
         self._legacy_state["_date"] = self._state.get("date", str(date.today()))
 
     def get_usage(self, model: str) -> int:
-        if model in (GeminiConfig.PRIMARY_MODEL, "gemini-2.5-flash"):
+        if model in (GeminiConfig.PRIMARY_MODEL, "gemini-3.1-flash-lite"):
             return int(self._legacy_state[GeminiConfig.PRIMARY_MODEL]["tokens"])
         return int(self._legacy_state[GeminiConfig.FALLBACK_MODEL]["tokens"])
 
     def increment(self, model: str, tokens: int = 0) -> None:
         with _lock:
-            if model in (GeminiConfig.PRIMARY_MODEL, "gemini-2.5-flash"):
+            if model in (GeminiConfig.PRIMARY_MODEL, "gemini-3.1-flash-lite"):
                 self._state["primary_tokens"] = int(self._state.get("primary_tokens", 0)) + int(tokens)
                 self._state["primary_requests"] = int(self._state.get("primary_requests", 0)) + 1
             else:
