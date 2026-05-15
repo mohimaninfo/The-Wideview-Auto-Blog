@@ -71,7 +71,21 @@ RESEARCH BRIEF FORMAT (respond in JSON):
   "suggested_video_search": "YouTube search query if applicable"
 }}
 
-Produce the research brief now:"""
+Produce the research brief now: 
+
+═══════════════════════════════════════════
+OUTPUT FORMAT — STRICT JSON ONLY
+═══════════════════════════════════════════
+
+Return ONLY valid JSON.
+
+Do NOT include:
+- markdown
+- ```json code fences
+- explanations
+- extra text
+
+Your response must start with { and end with }."""
 
         response_text = call_gemini(
             prompt,
