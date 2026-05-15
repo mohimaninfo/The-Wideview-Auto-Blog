@@ -54,8 +54,8 @@ class Secrets:
 
 # ─── Gemini Model Config ───────────────────────────────────────────────────────
 class GeminiConfig:
-    PRIMARY_MODEL: str = "gemini-1.5-flash"
-    FALLBACK_MODEL: str = "gemini-1.5-flash"
+    PRIMARY_MODEL: str = "gemini-3.1-flash-lite"
+    FALLBACK_MODEL: str = "gemini-3.1-flash-lite"
     MAX_OUTPUT_TOKENS: int = 8192
     TEMPERATURE: float = 0.7
     TOP_P: float = 0.9
