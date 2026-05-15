@@ -27,34 +27,42 @@ from google.api_core.exceptions import ResourceExhausted
 logger = logging.getLogger(__name__)
 
 
-def smart_gemini_call(prompt: str, primary_model: str, fallback_model: str = "gemini-3.1-flash-lite", **kwargs):
+def smart_gemini_call(
+    prompt: str,
+    primary_model: str,
+    fallback_model: str = "gemini-3.1-flash-lite",
+    **kwargs
+):
     """
     Robust Gemini call with automatic fallback on quota exhaustion.
     """
 
     client = GeminiClient()
 
- if "max_tokens" in kwargs:
-
+    # Convert compatibility parameter
+    if "max_tokens" in kwargs:
         kwargs["max_output_tokens"] = kwargs.pop("max_tokens")
 
     try:
-
-        return client.generate(prompt, model=primary_model, **kwargs)
+        return client.generate(
+            prompt,
+            model=primary_model,
+            **kwargs
+        )
 
     except Exception as e:
-
         error_str = str(e)
 
         if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
-
             logger.warning(
-
                 f"[FALLBACK] {primary_model} exhausted → switching to {fallback_model}"
-
             )
 
-            return client.generate(prompt, model=fallback_model, **kwargs)
+            return client.generate(
+                prompt,
+                model=fallback_model,
+                **kwargs
+            )
 
         raise
 
