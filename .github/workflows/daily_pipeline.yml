@@ -53,14 +53,15 @@ jobs:
           print(f'Pipeline complete. Published: {sum(1 for r in results if \"url\" in r)}/{posts}')
           for r in results:
             if 'url' in r:
-              print(f'  ✓ {r[\"title\"]} → {r[\"url\"]}')
+              print(f'   ✓ {r[\"title\"]} → {r[\"url\"]}')
             else:
-              print(f'  ✗ Error: {r.get(\"error\", \"unknown\")}')
+              print(f'   ✗ Error: {r.get(\"error\", \"unknown\")}')
           "
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BLOGGER_BLOG_ID: ${{ secrets.BLOGGER_BLOG_ID }}
-          BLOGGER_OAUTH_CREDENTIALS: ${{ secrets.BLOGGER_OAUTH_CREDENTIALS }}
+          # FIXED: Match the exact name your python code expects
+          BLOGGER_OAUTH_CREDENTIALS_JSON: ${{ secrets.BLOGGER_OAUTH_CREDENTIALS_JSON }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           FIREBASE_CREDENTIALS: ${{ secrets.FIREBASE_CREDENTIALS }}
           DISQUS_SHORTNAME: ${{ secrets.DISQUS_SHORTNAME }}
