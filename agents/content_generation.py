@@ -347,8 +347,8 @@ Respond with ONLY the meta description text, no quotes."""
 
         meta_description = smart_gemini_call(
             meta_prompt,
-            primary_model="gemini-2.5-flash",
-            fallback_model="gemini-1.5-flash",
+            primary_model="gemini-3.1-flash-lite",
+            fallback_model="gemini-3.1-flash-lite",
             max_tokens=200,
             temperature=0.5,
             json_mode=False,
