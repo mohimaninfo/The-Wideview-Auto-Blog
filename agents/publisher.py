@@ -224,19 +224,24 @@ class PublisherAgent:
                 "reference_count": len(task["post_with_citations"].get("references", [])),
             }
 
-            self._append_to_log(metadata)
-            return metadata
-
-        except Exception as e:
-            logger.error(f"Blogger publish failed: {e}", exc_info=True)
-            raise
-
-    def _append_to_log(self, metadata: dict):
+            def _append_to_log(self, metadata: dict):
         PUBLISHED_POSTS_PATH.parent.mkdir(parents=True, exist_ok=True)
         posts = []
+        
         if PUBLISHED_POSTS_PATH.exists():
-            with open(PUBLISHED_POSTS_PATH) as f:
-                posts = json.load(f)
+            try:
+                with open(PUBLISHED_POSTS_PATH) as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        posts = data
+                    elif isinstance(data, dict):
+                        # If the file accidentally saved a single object/dict, convert it to a list
+                        posts = [data] if data else []
+            except json.JSONDecodeError:
+                # If the file is corrupted or empty, start fresh with an empty list
+                posts = []
+                
         posts.append(metadata)
+        
         with open(PUBLISHED_POSTS_PATH, "w") as f:
             json.dump(posts, f, indent=2)
