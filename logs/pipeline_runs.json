@@ -698,5 +698,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T22:34:32.890048",
+    "run_end": "2026-05-16T22:37:12.020232",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "3676056374667926958",
+        "title": "The Hardware Stagnation Review: Is Your 5-Year-Old Gaming PC Actually Better Than a New Build?",
+        "url": "https://theomniview.blogspot.com/2026/05/the-hardware-stagnation-review-is-your.html",
+        "genre": "entertainment",
+        "topic": "gaming",
+        "layer": "reviews",
+        "labels": [
+          "Entertainment",
+          "Gaming",
+          "Reviews",
+          "gaming PC upgrade",
+          "PC hardware market",
+          "GPU pricing"
+        ],
+        "slug": "the-hardware-stagnation-review-is-your-5-year-old-gaming-pc-actually-better-than",
+        "published_at": "2026-05-16T22:41:02+00:00",
+        "word_count": 669,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "5758730730223781720",
+        "title": "The Right to Repair Gaming: How California\u2019s Server Preservation Bill Will Spark a Circular Hardware Economy",
+        "url": "https://theomniview.blogspot.com/2026/05/the-right-to-repair-gaming-how.html",
+        "genre": "environment",
+        "topic": "circular-economy",
+        "layer": "explainers",
+        "labels": [
+          "Environment",
+          "Circular Economy",
+          "Explainers",
+          "circular economy",
+          "right to repair",
+          "electronic waste"
+        ],
+        "slug": "the-right-to-repair-gaming-how-californias-server-preservation-bill-will-spark-a",
+        "published_at": "2026-05-16T22:42:11+00:00",
+        "word_count": 1126,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 3
+      }
+    ]
   }
 ]
