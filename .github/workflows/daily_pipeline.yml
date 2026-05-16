@@ -10,7 +10,7 @@ on:
       posts_per_run:
         description: 'Number of posts to generate'
         required: false
-        default: '2'
+        default: '1'
 
 permissions:
   contents: write  # needed to commit logs back to repo
