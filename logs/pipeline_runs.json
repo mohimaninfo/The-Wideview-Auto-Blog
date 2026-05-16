@@ -230,5 +230,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T12:54:08.170289",
+    "run_end": "2026-05-16T12:56:27.185822",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "5540926458621334254",
+        "title": "The Right to Play: How California\u2019s Server Preservation Bill Will Force a Gaming Industry Pivot",
+        "url": "https://theomniview.blogspot.com/2026/05/the-right-to-play-how-californias.html",
+        "genre": "entertainment",
+        "topic": "gaming",
+        "layer": "explainers",
+        "labels": [
+          "Entertainment",
+          "Gaming",
+          "Explainers",
+          "video game preservation",
+          "California game legislation",
+          "online game server shutdowns"
+        ],
+        "slug": "the-right-to-play-how-californias-server-preservation-bill-will-force-a-gaming-i",
+        "published_at": "2026-05-16T13:00:03+00:00",
+        "word_count": 1053,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "6767245740344566537",
+        "title": "The Analog Home: How to Build a 'Data-Free' Sanctuary Amidst Rising Energy Costs",
+        "url": "https://theomniview.blogspot.com/2026/05/the-analog-home-how-to-build-data-free.html",
+        "genre": "lifestyle",
+        "topic": "home-living",
+        "layer": "explainers",
+        "labels": [
+          "Lifestyle",
+          "Home & Living",
+          "Explainers",
+          "smart home energy consumption",
+          "analog home design",
+          "reduce home utility bills"
+        ],
+        "slug": "the-analog-home-how-to-build-a-data-free-sanctuary-amidst-rising-energy-costs",
+        "published_at": "2026-05-16T13:01:26+00:00",
+        "word_count": 915,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
