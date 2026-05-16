@@ -90,5 +90,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 3
+  },
+  {
+    "post_id": "1195899906506313270",
+    "title": "The Digital Carbon Cost: Why Your Smart Home is Fueling the Data Center Crisis",
+    "url": "https://theomniview.blogspot.com/2026/05/the-digital-carbon-cost-why-your-smart.html",
+    "genre": "environment",
+    "topic": "sustainable-living",
+    "layer": "opinion-analysis",
+    "labels": [
+      "Environment",
+      "Sustainable Living",
+      "Opinion & Analysis",
+      "data center energy consumption",
+      "sustainable smart home",
+      "digital carbon footprint"
+    ],
+    "slug": "the-digital-carbon-cost-why-your-smart-home-is-fueling-the-data-center-crisis",
+    "published_at": "2026-05-16T09:21:37+00:00",
+    "word_count": 963,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 3
+  },
+  {
+    "post_id": "2948972064437227061",
+    "title": "7 Strategic Moves to Protect Your Savings During a Market Downturn Without Liquidating Assets",
+    "url": "https://theomniview.blogspot.com/2026/05/7-strategic-moves-to-protect-your.html",
+    "genre": "finance",
+    "topic": "personal-finance",
+    "layer": "listicles",
+    "labels": [
+      "Finance",
+      "Personal Finance",
+      "Listicles",
+      "protect savings during recession",
+      "recession-proof your finances",
+      "market crash survival guide"
+    ],
+    "slug": "7-strategic-moves-to-protect-your-savings-during-a-market-downturn-without-liqui",
+    "published_at": "2026-05-16T09:22:31+00:00",
+    "word_count": 763,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
