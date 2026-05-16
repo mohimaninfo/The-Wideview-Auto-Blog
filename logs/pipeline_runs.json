@@ -74,5 +74,57 @@
         "reference_count": 3
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T04:22:57.721513",
+    "run_end": "2026-05-16T04:26:15.235912",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "4639883910831774325",
+        "title": "The AI Slop Era: How Stealth Marketing and Synthetic Hits Are Corrupting Music Streaming",
+        "url": "https://theomniview.blogspot.com/2026/05/the-ai-slop-era-how-stealth-marketing.html",
+        "genre": "entertainment",
+        "topic": "music",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Entertainment",
+          "Music",
+          "Opinion & Analysis",
+          "AI music",
+          "music streaming trends",
+          "stealth marketing"
+        ],
+        "slug": "the-ai-slop-era-how-stealth-marketing-and-synthetic-hits-are-corrupting-music-st",
+        "published_at": "2026-05-16T04:29:53+00:00",
+        "word_count": 940,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "6745950451917888704",
+        "title": "7 Ways to Future-Proof Your Codebases Against the Impending AI 'Slop' and Data Poisoning Crisis",
+        "url": "https://theomniview.blogspot.com/2026/05/7-ways-to-future-proof-your-codebases.html",
+        "genre": "technology",
+        "topic": "programming",
+        "layer": "listicles",
+        "labels": [
+          "Technology",
+          "Programming",
+          "Listicles",
+          "AI data poisoning",
+          "software integrity",
+          "codebase security"
+        ],
+        "slug": "7-ways-to-future-proof-your-codebases-against-the-impending-ai-slop-and-data-poi",
+        "published_at": "2026-05-16T04:31:14+00:00",
+        "word_count": 828,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 3
+      }
+    ]
   }
 ]
