@@ -3,7 +3,7 @@ name: Daily Content Pipeline
 on:
   schedule:
     # Run at 08:00 UTC every day
-    - cron: '*/15 * * *'
+    - cron: '0,15,30,45 * * * *'  
     # Second run at 18:00 UTC (2 posts per day total)
     
   workflow_dispatch:
