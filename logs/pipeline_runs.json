@@ -594,5 +594,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T20:36:43.939325",
+    "run_end": "2026-05-16T20:37:50.097673",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "8219438747132381065",
+        "title": "The Solo 401k vs. SEP IRA Pivot: Tax-Efficient Investing Strategies for the Multi-Business Entrepreneur",
+        "url": "https://theomniview.blogspot.com/2026/05/the-solo-401k-vs-sep-ira-pivot-tax.html",
+        "genre": "finance",
+        "topic": "investing",
+        "layer": "latest-news",
+        "labels": [
+          "Finance",
+          "Investing",
+          "Latest News",
+          "Solo 401k vs SEP IRA",
+          "self-employed retirement planning",
+          "multi-business tax strategy"
+        ],
+        "slug": "the-solo-401k-vs-sep-ira-pivot-tax-efficient-investing-strategies-for-the-multi-",
+        "published_at": "2026-05-16T20:42:05+00:00",
+        "word_count": 753,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 5
+      },
+      {
+        "post_id": "5488770855235972538",
+        "title": "The Post-Authenticity Pivot: Why Brands Must Abandon 'Synthetic' Marketing to Survive the AI Backlash",
+        "url": "https://theomniview.blogspot.com/2026/05/the-post-authenticity-pivot-why-brands.html",
+        "genre": "business",
+        "topic": "marketing",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Business",
+          "Marketing & Growth",
+          "Opinion & Analysis",
+          "AI backlash",
+          "authentic marketing strategy",
+          "synthetic media"
+        ],
+        "slug": "the-post-authenticity-pivot-why-brands-must-abandon-synthetic-marketing-to-survi",
+        "published_at": "2026-05-16T20:42:49+00:00",
+        "word_count": 831,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
