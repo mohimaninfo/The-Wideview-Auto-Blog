@@ -266,5 +266,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "2446824033478459481",
+    "title": "The Post-Server Era: Why California\u2019s Preservation Bill Could Save Cult Classic TV Shows from Digital Erasure",
+    "url": "https://theomniview.blogspot.com/2026/05/the-post-server-era-why-californias.html",
+    "genre": "entertainment",
+    "topic": "film-tv",
+    "layer": "latest-news",
+    "labels": [
+      "Entertainment",
+      "Film & TV",
+      "Latest News",
+      "digital preservation",
+      "streaming services",
+      "California server bill"
+    ],
+    "slug": "the-post-server-era-why-californias-preservation-bill-could-save-cult-classic-tv",
+    "published_at": "2026-05-16T15:51:19+00:00",
+    "word_count": 791,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "6467297150740969834",
+    "title": "The Sustainable Gamer\u2019s Review: Can Retro Consoles Lower Your Home Energy Bill?",
+    "url": "https://theomniview.blogspot.com/2026/05/the-sustainable-gamers-review-can-retro.html",
+    "genre": "environment",
+    "topic": "sustainable-living",
+    "layer": "reviews",
+    "labels": [
+      "Environment",
+      "Sustainable Living",
+      "Reviews",
+      "sustainable gaming",
+      "energy efficient consoles",
+      "retro gaming"
+    ],
+    "slug": "the-sustainable-gamers-review-can-retro-consoles-lower-your-home-energy-bill",
+    "published_at": "2026-05-16T15:51:49+00:00",
+    "word_count": 676,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 3
   }
 ]
