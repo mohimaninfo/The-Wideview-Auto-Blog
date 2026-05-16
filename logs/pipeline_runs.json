@@ -386,5 +386,57 @@
         "reference_count": 3
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T16:42:45.643126",
+    "run_end": "2026-05-16T16:44:08.499761",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "3798379877562410749",
+        "title": "The Climate-Conflict Nexus: How Super El Ni\u00f1o Trends Are Destabilizing Global Food Security",
+        "url": "https://theomniview.blogspot.com/2026/05/the-climate-conflict-nexus-how-super-el.html",
+        "genre": "society",
+        "topic": "global-affairs",
+        "layer": "research-articles",
+        "labels": [
+          "Society",
+          "Global Affairs",
+          "Research Articles",
+          "global food security",
+          "Super El Ni\u00f1o",
+          "climate-induced conflict"
+        ],
+        "slug": "the-climate-conflict-nexus-how-super-el-nio-trends-are-destabilizing-global-food",
+        "published_at": "2026-05-16T16:48:18+00:00",
+        "word_count": 1092,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "4665267043807546331",
+        "title": "The Neuroplasticity Paradox: Why Relying on AI for Health Advice May Be Stunting Your Cognitive Reserve",
+        "url": "https://theomniview.blogspot.com/2026/05/the-neuroplasticity-paradox-why-relying.html",
+        "genre": "education",
+        "topic": "learning-science",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Education",
+          "Learning Science",
+          "Opinion & Analysis",
+          "neuroplasticity",
+          "cognitive reserve",
+          "AI dependency"
+        ],
+        "slug": "the-neuroplasticity-paradox-why-relying-on-ai-for-health-advice-may-be-stunting-",
+        "published_at": "2026-05-16T16:49:08+00:00",
+        "word_count": 852,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
