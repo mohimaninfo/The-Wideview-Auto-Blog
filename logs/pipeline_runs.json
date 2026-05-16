@@ -490,5 +490,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-16T18:45:33.530409",
+    "run_end": "2026-05-16T18:48:15.710774",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "3258300864087867292",
+        "title": "The Silicon Gridlock: Why AI Data Center Expansion is Triggering a Local Energy Crisis",
+        "url": "https://theomniview.blogspot.com/2026/05/the-silicon-gridlock-why-ai-data-center.html",
+        "genre": "technology",
+        "topic": "artificial-intelligence",
+        "layer": "research-articles",
+        "labels": [
+          "Technology",
+          "Artificial Intelligence",
+          "Research Articles",
+          "AI data centers",
+          "energy infrastructure",
+          "AI power consumption"
+        ],
+        "slug": "the-silicon-gridlock-why-ai-data-center-expansion-is-triggering-a-local-energy-c",
+        "published_at": "2026-05-16T18:51:44+00:00",
+        "word_count": 1028,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "3835007640686748278",
+        "title": "The Autonomous Infrastructure Pivot: How Remote-Operated Robotics Are Solving the AI Data Center Energy Crisis",
+        "url": "https://theomniview.blogspot.com/2026/05/the-autonomous-infrastructure-pivot-how.html",
+        "genre": "technology",
+        "topic": "robotics",
+        "layer": "case-studies",
+        "labels": [
+          "Technology",
+          "Robotics",
+          "Case Studies",
+          "data center robotics",
+          "energy efficient robotics",
+          "autonomous maintenance"
+        ],
+        "slug": "the-autonomous-infrastructure-pivot-how-remote-operated-robotics-are-solving-the",
+        "published_at": "2026-05-16T18:53:14+00:00",
+        "word_count": 741,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 5
+      }
+    ]
   }
 ]
