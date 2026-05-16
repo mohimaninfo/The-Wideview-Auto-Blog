@@ -442,5 +442,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 5
+  },
+  {
+    "post_id": "1494433842894342046",
+    "title": "The Low-Wattage Sanctuary: How to Optimize Your Home Office for Energy Independence Amidst Rising Grid Costs",
+    "url": "https://theomniview.blogspot.com/2026/05/the-low-wattage-sanctuary-how-to.html",
+    "genre": "lifestyle",
+    "topic": "home-living",
+    "layer": "how-to-guides",
+    "labels": [
+      "Lifestyle",
+      "Home & Living",
+      "How-To Guides",
+      "home office energy efficiency",
+      "reduce electricity bill",
+      "sustainable remote work"
+    ],
+    "slug": "the-low-wattage-sanctuary-how-to-optimize-your-home-office-for-energy-independen",
+    "published_at": "2026-05-16T20:00:20+00:00",
+    "word_count": 919,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "4026162164199047850",
+    "title": "The Low-Energy Kitchen: Reviewing High-Performance Appliances for the Off-Grid Era",
+    "url": "https://theomniview.blogspot.com/2026/05/the-low-energy-kitchen-reviewing-high.html",
+    "genre": "lifestyle",
+    "topic": "food-cooking",
+    "layer": "reviews",
+    "labels": [
+      "Lifestyle",
+      "Food & Cooking",
+      "Reviews",
+      "energy-efficient kitchen appliances",
+      "off-grid cooking",
+      "low-wattage kitchen tools"
+    ],
+    "slug": "the-low-energy-kitchen-reviewing-high-performance-appliances-for-the-off-grid-er",
+    "published_at": "2026-05-16T20:00:47+00:00",
+    "word_count": 624,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
