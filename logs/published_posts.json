@@ -1278,5 +1278,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 2
+  },
+  {
+    "post_id": "1176065940894789068",
+    "title": "The Atomic Datacenter Paradox: Why Utah\u2019s Mega-Grid Expansion Threatens Renewable Energy Goals",
+    "url": "https://theomniview.blogspot.com/2026/05/the-atomic-datacenter-paradox-why-utahs.html",
+    "genre": "environment",
+    "topic": "renewable-energy",
+    "layer": "research-articles",
+    "labels": [
+      "Environment",
+      "Renewable Energy",
+      "Research Articles",
+      "renewable energy",
+      "AI datacenter energy consumption",
+      "grid modernization"
+    ],
+    "slug": "the-atomic-datacenter-paradox-why-utahs-mega-grid-expansion-threatens-renewable-",
+    "published_at": "2026-05-17T22:47:46+00:00",
+    "word_count": 1058,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 3
+  },
+  {
+    "post_id": "730061469662657116",
+    "title": "The Windfall Risk: Why Startup Founders Are Choosing Debt Consolidation Over Early Liquidity",
+    "url": "https://theomniview.blogspot.com/2026/05/the-windfall-risk-why-startup-founders.html",
+    "genre": "finance",
+    "topic": "startups",
+    "layer": "opinion-analysis",
+    "labels": [
+      "Finance",
+      "Startups & Venture",
+      "Opinion & Analysis",
+      "startup founder finance",
+      "debt consolidation",
+      "equity management"
+    ],
+    "slug": "the-windfall-risk-why-startup-founders-are-choosing-debt-consolidation-over-earl",
+    "published_at": "2026-05-17T22:48:55+00:00",
+    "word_count": 925,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
