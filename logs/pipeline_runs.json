@@ -854,5 +854,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-17T05:39:04.267479",
+    "run_end": "2026-05-17T05:42:04.664604",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "467578413985912452",
+        "title": "The Right to Repair the Cloud: Why California\u2019s Server Preservation Bill is a Climate Policy Win",
+        "url": "https://theomniview.blogspot.com/2026/05/the-right-to-repair-cloud-why.html",
+        "genre": "environment",
+        "topic": "climate-policy",
+        "layer": "research-articles",
+        "labels": [
+          "Environment",
+          "Climate Policy",
+          "Research Articles",
+          "climate policy",
+          "server preservation bill",
+          "electronic waste"
+        ],
+        "slug": "the-right-to-repair-the-cloud-why-californias-server-preservation-bill-is-a-clim",
+        "published_at": "2026-05-17T05:45:41+00:00",
+        "word_count": 1036,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 5
+      },
+      {
+        "post_id": "8400898538147434095",
+        "title": "The Inheritance Pivot: How Startup Founders Are Using Unexpected Windfalls to Bridge the Series A Funding Gap",
+        "url": "https://theomniview.blogspot.com/2026/05/the-inheritance-pivot-how-startup.html",
+        "genre": "finance",
+        "topic": "startups",
+        "layer": "case-studies",
+        "labels": [
+          "Finance",
+          "Startups & Venture",
+          "Case Studies",
+          "startup funding",
+          "bridge capital",
+          "founder equity"
+        ],
+        "slug": "the-inheritance-pivot-how-startup-founders-are-using-unexpected-windfalls-to-bri",
+        "published_at": "2026-05-17T05:47:03+00:00",
+        "word_count": 853,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
