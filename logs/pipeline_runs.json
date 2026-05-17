@@ -1374,5 +1374,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-17T19:59:12.633895",
+    "run_end": "2026-05-17T20:00:27.488535",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "9088265395314210262",
+        "title": "The Sovereign Grid: Why Energy Independence is the New Taiwan Defense Strategy",
+        "url": "https://theomniview.blogspot.com/2026/05/the-sovereign-grid-why-energy.html",
+        "genre": "society",
+        "topic": "global-affairs",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Society",
+          "Global Affairs",
+          "Opinion & Analysis",
+          "Taiwan energy security",
+          "geopolitical risk",
+          "micro-grid infrastructure"
+        ],
+        "slug": "the-sovereign-grid-why-energy-independence-is-the-new-taiwan-defense-strategy",
+        "published_at": "2026-05-17T20:04:43+00:00",
+        "word_count": 771,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "4690213945741610046",
+        "title": "The Black Box Threat: Auditing 3D Printer Network Protocols Against Bambu Lab\u2019s AGPL Violations",
+        "url": "https://theomniview.blogspot.com/2026/05/the-black-box-threat-auditing-3d.html",
+        "genre": "technology",
+        "topic": "cybersecurity",
+        "layer": "latest-news",
+        "labels": [
+          "Technology",
+          "Cybersecurity",
+          "Latest News",
+          "Bambu Lab security",
+          "AGPL license violation",
+          "3D printer network vulnerabilities"
+        ],
+        "slug": "the-black-box-threat-auditing-3d-printer-network-protocols-against-bambu-labs-ag",
+        "published_at": "2026-05-17T20:05:26+00:00",
+        "word_count": 817,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 6
+      }
+    ]
   }
 ]
