@@ -1218,5 +1218,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-17T16:43:31.631431",
+    "run_end": "2026-05-17T16:45:35.516905",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "803643290230469630",
+        "title": "The Hardware Stagnation Crisis: Why 60% of PC Gamers Are Choosing Optimization Over Upgrades",
+        "url": "https://theomniview.blogspot.com/2026/05/the-hardware-stagnation-crisis-why-60.html",
+        "genre": "entertainment",
+        "topic": "gaming",
+        "layer": "latest-news",
+        "labels": [
+          "Entertainment",
+          "Gaming",
+          "Latest News",
+          "PC gaming hardware",
+          "AI pricing crunch",
+          "gaming PC build"
+        ],
+        "slug": "the-hardware-stagnation-crisis-why-60-of-pc-gamers-are-choosing-optimization-ove",
+        "published_at": "2026-05-17T16:49:29+00:00",
+        "word_count": 777,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "4318167331276661207",
+        "title": "The Digital Battlefield: How AI-Driven Drone Swarms Are Redefining Modern Urban Warfare",
+        "url": "https://theomniview.blogspot.com/2026/05/the-digital-battlefield-how-ai-driven.html",
+        "genre": "society",
+        "topic": "digital-society",
+        "layer": "research-articles",
+        "labels": [
+          "Society",
+          "Digital Society",
+          "Research Articles",
+          "AI-driven drone swarms",
+          "autonomous weapons systems",
+          "modern urban warfare"
+        ],
+        "slug": "the-digital-battlefield-how-ai-driven-drone-swarms-are-redefining-modern-urban-w",
+        "published_at": "2026-05-17T16:50:34+00:00",
+        "word_count": 1021,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
