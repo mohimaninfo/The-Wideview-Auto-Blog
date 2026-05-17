@@ -750,5 +750,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "3676381580473046500",
+    "title": "The Digital Preservation Mandate: How California\u2019s Server Bill Could Save Your Favorite Music Metadata from Erasure",
+    "url": "https://theomniview.blogspot.com/2026/05/the-digital-preservation-mandate-how.html",
+    "genre": "entertainment",
+    "topic": "music",
+    "layer": "latest-news",
+    "labels": [
+      "Entertainment",
+      "Music",
+      "Latest News",
+      "music metadata",
+      "digital preservation",
+      "server preservation bill"
+    ],
+    "slug": "the-digital-preservation-mandate-how-californias-server-bill-could-save-your-fav",
+    "published_at": "2026-05-17T08:13:07+00:00",
+    "word_count": 824,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "7633793556092854796",
+    "title": "7 Digital Decluttering Habits to Save Your Relationship from Modern Tech Burnout",
+    "url": "https://theomniview.blogspot.com/2026/05/7-digital-decluttering-habits-to-save.html",
+    "genre": "lifestyle",
+    "topic": "relationships",
+    "layer": "listicles",
+    "labels": [
+      "Lifestyle",
+      "Relationships",
+      "Listicles",
+      "digital decluttering",
+      "relationship advice",
+      "tech burnout"
+    ],
+    "slug": "7-digital-decluttering-habits-to-save-your-relationship-from-modern-tech-burnout",
+    "published_at": "2026-05-17T08:14:31+00:00",
+    "word_count": 988,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
