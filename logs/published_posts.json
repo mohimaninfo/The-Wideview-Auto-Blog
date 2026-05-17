@@ -1058,5 +1058,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "5941326321019714084",
+    "title": "The Post-Game Void: Why Your Brain Struggles to Process the End of Immersive Digital Worlds",
+    "url": "https://theomniview.blogspot.com/2026/05/the-post-game-void-why-your-brain.html",
+    "genre": "science",
+    "topic": "neuroscience",
+    "layer": "opinion-analysis",
+    "labels": [
+      "Science",
+      "Neuroscience",
+      "Opinion & Analysis",
+      "post-game depression",
+      "neuroscience of gaming",
+      "dopamine regulation"
+    ],
+    "slug": "the-post-game-void-why-your-brain-struggles-to-process-the-end-of-immersive-digi",
+    "published_at": "2026-05-17T17:51:43+00:00",
+    "word_count": 967,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "9134092546555225082",
+    "title": "The Vulnerable Executive: A Leader\u2019s Guide to Surviving the Era of Zero-Day Memory Exploits",
+    "url": "https://theomniview.blogspot.com/2026/05/the-vulnerable-executive-leaders-guide.html",
+    "genre": "business",
+    "topic": "leadership",
+    "layer": "how-to-guides",
+    "labels": [
+      "Business",
+      "Leadership & Management",
+      "How-To Guides",
+      "executive cybersecurity",
+      "zero-day exploit management",
+      "leadership risk mitigation"
+    ],
+    "slug": "the-vulnerable-executive-a-leaders-guide-to-surviving-the-era-of-zero-day-memory",
+    "published_at": "2026-05-17T17:53:01+00:00",
+    "word_count": 917,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
