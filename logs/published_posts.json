@@ -1542,5 +1542,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 3
+  },
+  {
+    "post_id": "7166593660997534546",
+    "title": "The River Hypoxia Crisis: A Case Study on How Urban Traffic Emissions Are Suffocating Tropical Waterways",
+    "url": "https://theomniview.blogspot.com/2026/05/the-river-hypoxia-crisis-case-study-on.html",
+    "genre": "science",
+    "topic": "climate-environment",
+    "layer": "case-studies",
+    "labels": [
+      "Science",
+      "Climate & Environment",
+      "Case Studies",
+      "river deoxygenation",
+      "water pollution",
+      "climate warming"
+    ],
+    "slug": "the-river-hypoxia-crisis-a-case-study-on-how-urban-traffic-emissions-are-suffoca",
+    "published_at": "2026-05-18T17:29:39+00:00",
+    "word_count": 760,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 2
+  },
+  {
+    "post_id": "4211177308031357611",
+    "title": "The Pension-Portfolio Pivot: Recalculating Your Retirement Benchmark When You Have a Defined Benefit Plan",
+    "url": "https://theomniview.blogspot.com/2026/05/the-pension-portfolio-pivot.html",
+    "genre": "finance",
+    "topic": "investing",
+    "layer": "research-articles",
+    "labels": [
+      "Finance",
+      "Investing",
+      "Research Articles",
+      "pension retirement planning",
+      "retirement benchmarks",
+      "defined benefit plan investing"
+    ],
+    "slug": "the-pension-portfolio-pivot-recalculating-your-retirement-benchmark-when-you-hav",
+    "published_at": "2026-05-18T17:30:31+00:00",
+    "word_count": 1016,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
