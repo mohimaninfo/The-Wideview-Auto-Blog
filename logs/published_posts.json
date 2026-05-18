@@ -1410,5 +1410,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "5906906344580152944",
+    "title": "The 3D Printing Security Audit: Assessing Bambu Lab\u2019s 'Black Box' Vulnerabilities in Your Home Network",
+    "url": "https://theomniview.blogspot.com/2026/05/the-3d-printing-security-audit.html",
+    "genre": "technology",
+    "topic": "gadgets",
+    "layer": "reviews",
+    "labels": [
+      "Technology",
+      "Gadgets & Hardware",
+      "Reviews",
+      "Bambu Lab security",
+      "3D printer network vulnerabilities",
+      "IoT device isolation"
+    ],
+    "slug": "the-3d-printing-security-audit-assessing-bambu-labs-black-box-vulnerabilities-in",
+    "published_at": "2026-05-18T06:48:56+00:00",
+    "word_count": 634,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "4711095628856905206",
+    "title": "The Digital Turing Test: How AI-Driven Relationship Advice is Stunting Emotional Intelligence",
+    "url": "https://theomniview.blogspot.com/2026/05/the-digital-turing-test-how-ai-driven.html",
+    "genre": "lifestyle",
+    "topic": "relationships",
+    "layer": "explainers",
+    "labels": [
+      "Lifestyle",
+      "Relationships",
+      "Explainers",
+      "AI relationship advice",
+      "emotional intelligence",
+      "digital intimacy"
+    ],
+    "slug": "the-digital-turing-test-how-ai-driven-relationship-advice-is-stunting-emotional-",
+    "published_at": "2026-05-18T06:49:36+00:00",
+    "word_count": 1267,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
