@@ -1738,5 +1738,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-18T10:54:38.865252",
+    "run_end": "2026-05-18T10:55:47.169497",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "7681986191758675295",
+        "title": "The Prompt Injection Classroom: A Case Study on Hardening K-12 AI Tools Against Student Manipulation",
+        "url": "https://theomniview.blogspot.com/2026/05/the-prompt-injection-classroom-case.html",
+        "genre": "education",
+        "topic": "k12",
+        "layer": "case-studies",
+        "labels": [
+          "Education",
+          "K-12 Education",
+          "Case Studies",
+          "k12 ai security",
+          "prompt injection in schools",
+          "ai safety in education"
+        ],
+        "slug": "the-prompt-injection-classroom-a-case-study-on-hardening-k-12-ai-tools-against-s",
+        "published_at": "2026-05-18T11:00:15+00:00",
+        "word_count": 715,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 5
+      },
+      {
+        "post_id": "1573645690289743094",
+        "title": "The Academic Integrity Gap: How LLM-Powered Prompt Injection is Breaking Turnitin and Legacy Plagiarism Detectors",
+        "url": "https://theomniview.blogspot.com/2026/05/the-academic-integrity-gap-how-llm.html",
+        "genre": "education",
+        "topic": "higher-education",
+        "layer": "explainers",
+        "labels": [
+          "Education",
+          "Higher Education",
+          "Explainers",
+          "academic integrity",
+          "AI detection tools",
+          "prompt injection"
+        ],
+        "slug": "the-academic-integrity-gap-how-llm-powered-prompt-injection-is-breaking-turnitin",
+        "published_at": "2026-05-18T11:00:46+00:00",
+        "word_count": 1007,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
