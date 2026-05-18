@@ -1998,5 +1998,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-18T22:04:26.141792",
+    "run_end": "2026-05-18T22:05:59.350868",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "5383809779854189719",
+        "title": "The Graduation Speech Paradox: Why Universities Must Rethink Tech-Industry Keynotes in the Age of AI Skepticism",
+        "url": "https://theomniview.blogspot.com/2026/05/the-graduation-speech-paradox-why.html",
+        "genre": "education",
+        "topic": "higher-education",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Education",
+          "Higher Education",
+          "Opinion & Analysis",
+          "higher education",
+          "AI ethics in education",
+          "commencement speeches"
+        ],
+        "slug": "the-graduation-speech-paradox-why-universities-must-rethink-tech-industry-keynot",
+        "published_at": "2026-05-18T22:10:17+00:00",
+        "word_count": 773,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "5758896019427226156",
+        "title": "The Pizza Hut Effect: Why AI-Driven Operational Scaling is Creating 'Cascading' Brand Liability",
+        "url": "https://theomniview.blogspot.com/2026/05/the-pizza-hut-effect-why-ai-driven.html",
+        "genre": "business",
+        "topic": "marketing",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Business",
+          "Marketing & Growth",
+          "Opinion & Analysis",
+          "AI operational risk",
+          "automated service failure",
+          "brand liability"
+        ],
+        "slug": "the-pizza-hut-effect-why-ai-driven-operational-scaling-is-creating-cascading-bra",
+        "published_at": "2026-05-18T22:10:58+00:00",
+        "word_count": 808,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
