@@ -1946,5 +1946,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-18T21:00:14.969077",
+    "run_end": "2026-05-18T21:01:06.305242",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "1969348016921347307",
+        "title": "The Post-Antibiotic Future: How Phage Therapy is Re-emerging as a Clinical Reality",
+        "url": "https://theomniview.blogspot.com/2026/05/the-post-antibiotic-future-how-phage.html",
+        "genre": "health",
+        "topic": "medical-research",
+        "layer": "explainers",
+        "labels": [
+          "Health",
+          "Medical Research",
+          "Explainers",
+          "phage therapy",
+          "bacteriophage research",
+          "antibiotic resistance"
+        ],
+        "slug": "the-post-antibiotic-future-how-phage-therapy-is-re-emerging-as-a-clinical-realit",
+        "published_at": "2026-05-18T21:05:43+00:00",
+        "word_count": 991,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "8819694117706566058",
+        "title": "The Robotics Labor Crisis: How Samsung\u2019s Chip Strike Exposes the Fragility of Automated Manufacturing",
+        "url": "https://theomniview.blogspot.com/2026/05/the-robotics-labor-crisis-how-samsungs.html",
+        "genre": "technology",
+        "topic": "robotics",
+        "layer": "latest-news",
+        "labels": [
+          "Technology",
+          "Robotics",
+          "Latest News",
+          "robotics manufacturing",
+          "Samsung chip strike",
+          "semiconductor supply chain"
+        ],
+        "slug": "the-robotics-labor-crisis-how-samsungs-chip-strike-exposes-the-fragility-of-auto",
+        "published_at": "2026-05-18T21:06:05+00:00",
+        "word_count": 755,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
