@@ -2026,5 +2026,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "523573681134968008",
+    "title": "The Data Privacy Lockdown: How to Audit K-12 EdTech Platforms Against Unauthorized Data Harvesting",
+    "url": "https://theomniview.blogspot.com/2026/05/the-data-privacy-lockdown-how-to-audit.html",
+    "genre": "education",
+    "topic": "edtech",
+    "layer": "how-to-guides",
+    "labels": [
+      "Education",
+      "EdTech & Online Learning",
+      "How-To Guides",
+      "edtech data privacy",
+      "student data protection",
+      "K-12 cybersecurity audit"
+    ],
+    "slug": "the-data-privacy-lockdown-how-to-audit-k-12-edtech-platforms-against-unauthorize",
+    "published_at": "2026-05-19T20:29:19+00:00",
+    "word_count": 923,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 6
+  },
+  {
+    "post_id": "2260506839063121104",
+    "title": "The Post-Viral Brain: Analyzing the Link Between Persistent Inflammation and Neurodegenerative Decline",
+    "url": "https://theomniview.blogspot.com/2026/05/the-post-viral-brain-analyzing-link.html",
+    "genre": "health",
+    "topic": "medical-research",
+    "layer": "latest-news",
+    "labels": [
+      "Health",
+      "Medical Research",
+      "Latest News",
+      "neuroinflammation",
+      "post-viral syndrome",
+      "cognitive decline"
+    ],
+    "slug": "the-post-viral-brain-analyzing-the-link-between-persistent-inflammation-and-neur",
+    "published_at": "2026-05-19T20:29:58+00:00",
+    "word_count": 701,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 3
   }
 ]
