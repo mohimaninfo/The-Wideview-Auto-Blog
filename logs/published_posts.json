@@ -1938,5 +1938,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "2317353027792990297",
+    "title": "The 'Cascading' Kitchen Audit: How to Hard-Wire Your Cooking Tech Against AI-Driven Smart Appliance Failures",
+    "url": "https://theomniview.blogspot.com/2026/05/the-cascading-kitchen-audit-how-to-hard.html",
+    "genre": "lifestyle",
+    "topic": "food-cooking",
+    "layer": "reviews",
+    "labels": [
+      "Lifestyle",
+      "Food & Cooking",
+      "Reviews",
+      "smart kitchen appliances",
+      "cascading failure",
+      "kitchen technology"
+    ],
+    "slug": "the-cascading-kitchen-audit-how-to-hard-wire-your-cooking-tech-against-ai-driven",
+    "published_at": "2026-05-19T16:49:07+00:00",
+    "word_count": 560,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "6746867621150889526",
+    "title": "The Gluteal Amnesia Protocol: A How-To Guide for Re-Awakening 'Dead Glutes' Post-Sedentary Work",
+    "url": "https://theomniview.blogspot.com/2026/05/the-gluteal-amnesia-protocol-how-to.html",
+    "genre": "health",
+    "topic": "fitness",
+    "layer": "how-to-guides",
+    "labels": [
+      "Health",
+      "Fitness & Exercise",
+      "How-To Guides",
+      "dead glutes",
+      "gluteal amnesia",
+      "glute activation exercises"
+    ],
+    "slug": "the-gluteal-amnesia-protocol-a-how-to-guide-for-re-awakening-dead-glutes-post-se",
+    "published_at": "2026-05-19T16:49:47+00:00",
+    "word_count": 1044,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
