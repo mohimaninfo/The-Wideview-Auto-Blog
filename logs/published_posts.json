@@ -1850,5 +1850,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 3
+  },
+  {
+    "post_id": "8609752011504949395",
+    "title": "The Cascading Failure Audit: 7 Ways to Stress-Test Your Business Against AI Operational Over-Reliance",
+    "url": "https://theomniview.blogspot.com/2026/05/the-cascading-failure-audit-7-ways-to.html",
+    "genre": "business",
+    "topic": "entrepreneurship",
+    "layer": "listicles",
+    "labels": [
+      "Business",
+      "Entrepreneurship",
+      "Listicles",
+      "AI operational risk",
+      "business continuity planning",
+      "AI failure modes"
+    ],
+    "slug": "the-cascading-failure-audit-7-ways-to-stress-test-your-business-against-ai-opera",
+    "published_at": "2026-05-19T10:35:30+00:00",
+    "word_count": 808,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "6667317787923000441",
+    "title": "The Remote-Work Security Audit: How to Protect Your Home Network from 'Cascading' AI-Driven Cyberattacks",
+    "url": "https://theomniview.blogspot.com/2026/05/the-remote-work-security-audit-how-to.html",
+    "genre": "business",
+    "topic": "remote-work",
+    "layer": "how-to-guides",
+    "labels": [
+      "Business",
+      "Remote Work & Future of Work",
+      "How-To Guides",
+      "remote work security",
+      "home office network protection",
+      "cybersecurity for remote employees"
+    ],
+    "slug": "the-remote-work-security-audit-how-to-protect-your-home-network-from-cascading-a",
+    "published_at": "2026-05-19T10:36:09+00:00",
+    "word_count": 1052,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
