@@ -1762,5 +1762,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "6706069150931211721",
+    "title": "The Prompt Injection Classroom: How to Audit K-12 EdTech Tools Against Student Manipulation \u2014 A How To Guides Perspective",
+    "url": "https://theomniview.blogspot.com/2026/05/the-prompt-injection-classroom-how-to.html",
+    "genre": "education",
+    "topic": "edtech",
+    "layer": "how-to-guides",
+    "labels": [
+      "Education",
+      "EdTech & Online Learning",
+      "How-To Guides",
+      "prompt injection",
+      "edtech security",
+      "AI in the classroom"
+    ],
+    "slug": "the-prompt-injection-classroom-how-to-audit-k-12-edtech-tools-against-student-ma",
+    "published_at": "2026-05-19T02:07:58+00:00",
+    "word_count": 870,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "1857865529971980735",
+    "title": "The Retention Crisis Audit: Interviewing CHROs on Navigating the 'Samsung Salary Gap' in Tech Teams",
+    "url": "https://theomniview.blogspot.com/2026/05/the-retention-crisis-audit-interviewing.html",
+    "genre": "business",
+    "topic": "leadership",
+    "layer": "interviews",
+    "labels": [
+      "Business",
+      "Leadership & Management",
+      "Interviews",
+      "employee retention strategy",
+      "compensation inequality",
+      "tech leadership"
+    ],
+    "slug": "the-retention-crisis-audit-interviewing-chros-on-navigating-the-samsung-salary-g",
+    "published_at": "2026-05-19T02:09:13+00:00",
+    "word_count": 1112,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
