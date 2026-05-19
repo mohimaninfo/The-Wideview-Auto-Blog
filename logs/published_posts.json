@@ -2070,5 +2070,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 3
+  },
+  {
+    "post_id": "2832140548371733339",
+    "title": "The Sovereignty Paradox: Why Undersea Internet Cables are the New Geopolitical Chokepoints",
+    "url": "https://theomniview.blogspot.com/2026/05/the-sovereignty-paradox-why-undersea.html",
+    "genre": "society",
+    "topic": "culture",
+    "layer": "explainers",
+    "labels": [
+      "Society",
+      "Culture & Arts",
+      "Explainers",
+      "undersea internet cables",
+      "geopolitical infrastructure",
+      "internet sovereignty"
+    ],
+    "slug": "the-sovereignty-paradox-why-undersea-internet-cables-are-the-new-geopolitical-ch",
+    "published_at": "2026-05-19T22:10:16+00:00",
+    "word_count": 1201,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 3
+  },
+  {
+    "post_id": "4237716718230768212",
+    "title": "The Fiber-Optic Divide: Why Iran\u2019s Demand for Undersea Cable Fees Threatens Global Digital Inequality",
+    "url": "https://theomniview.blogspot.com/2026/05/the-fiber-optic-divide-why-irans-demand.html",
+    "genre": "society",
+    "topic": "inequality",
+    "layer": "latest-news",
+    "labels": [
+      "Society",
+      "Inequality & Justice",
+      "Latest News",
+      "undersea internet cables",
+      "digital inequality",
+      "internet infrastructure"
+    ],
+    "slug": "the-fiber-optic-divide-why-irans-demand-for-undersea-cable-fees-threatens-global",
+    "published_at": "2026-05-19T22:10:48+00:00",
+    "word_count": 804,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
