@@ -2290,5 +2290,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "6649360119323160855",
+    "title": "The Cognitive Retrieval Gap: Why AI-Driven Note-Taking Is Eroding Long-Term Retention",
+    "url": "https://theomniview.blogspot.com/2026/05/the-cognitive-retrieval-gap-why-ai.html",
+    "genre": "education",
+    "topic": "learning-science",
+    "layer": "opinion-analysis",
+    "labels": [
+      "Education",
+      "Learning Science",
+      "Opinion & Analysis",
+      "learning science",
+      "cognitive retention",
+      "generative AI in education"
+    ],
+    "slug": "the-cognitive-retrieval-gap-why-ai-driven-note-taking-is-eroding-long-term-reten",
+    "published_at": "2026-05-20T13:34:18+00:00",
+    "word_count": 964,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "1108070513224782293",
+    "title": "The Metabolic Reserve Audit: 7 Nutritional Strategies to Combat 'Dead Glute' Syndrome",
+    "url": "https://theomniview.blogspot.com/2026/05/the-metabolic-reserve-audit-7.html",
+    "genre": "health",
+    "topic": "nutrition",
+    "layer": "listicles",
+    "labels": [
+      "Health",
+      "Nutrition & Diet",
+      "Listicles",
+      "dead glute syndrome",
+      "metabolic reserve",
+      "muscle activation nutrition"
+    ],
+    "slug": "the-metabolic-reserve-audit-7-nutritional-strategies-to-combat-dead-glute-syndro",
+    "published_at": "2026-05-20T13:35:07+00:00",
+    "word_count": 857,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 5
   }
 ]
