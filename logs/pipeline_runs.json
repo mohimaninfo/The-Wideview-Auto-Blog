@@ -2778,5 +2778,57 @@
         "reference_count": 5
       }
     ]
+  },
+  {
+    "run_start": "2026-05-20T16:43:17.676666",
+    "run_end": "2026-05-20T16:44:45.774249",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "8313943368117226402",
+        "title": "The Post-Ownership Screen: Why the Paramount-Netflix Merger Signals the End of Digital Film Libraries",
+        "url": "https://theomniview.blogspot.com/2026/05/the-post-ownership-screen-why-paramount.html",
+        "genre": "entertainment",
+        "topic": "film-tv",
+        "layer": "reviews",
+        "labels": [
+          "Entertainment",
+          "Film & TV",
+          "Reviews",
+          "digital film ownership",
+          "streaming media consolidation",
+          "physical media comeback"
+        ],
+        "slug": "the-post-ownership-screen-why-the-paramount-netflix-merger-signals-the-end-of-di",
+        "published_at": "2026-05-20T16:48:59+00:00",
+        "word_count": 574,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "1125334640296692024",
+        "title": "The Dead Wallet Paradox: How to Audit Your Crypto Inheritance Against Exchange Insolvency",
+        "url": "https://theomniview.blogspot.com/2026/05/the-dead-wallet-paradox-how-to-audit.html",
+        "genre": "finance",
+        "topic": "cryptocurrency",
+        "layer": "latest-news",
+        "labels": [
+          "Finance",
+          "Cryptocurrency",
+          "Latest News",
+          "cryptocurrency inheritance",
+          "crypto estate planning",
+          "exchange insolvency"
+        ],
+        "slug": "the-dead-wallet-paradox-how-to-audit-your-crypto-inheritance-against-exchange-in",
+        "published_at": "2026-05-20T16:49:44+00:00",
+        "word_count": 867,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
