@@ -2882,5 +2882,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-20T21:28:59.561397",
+    "run_end": "2026-05-20T21:30:53.825426",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "6931692194200861499",
+        "title": "The Diplomatic Deepfake: Interviewing Experts on How AI-Generated Disinformation is Weaponizing Geopolitical Tensions",
+        "url": "https://theomniview.blogspot.com/2026/05/the-diplomatic-deepfake-interviewing.html",
+        "genre": "society",
+        "topic": "culture",
+        "layer": "interviews",
+        "labels": [
+          "Society",
+          "Culture & Arts",
+          "Interviews",
+          "AI disinformation",
+          "geopolitical stability",
+          "synthetic media"
+        ],
+        "slug": "the-diplomatic-deepfake-interviewing-experts-on-how-ai-generated-disinformation-",
+        "published_at": "2026-05-20T21:35:08+00:00",
+        "word_count": 880,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "173463955436809778",
+        "title": "The Screen Time Paradox: Why the Surgeon General\u2019s Advisory on Youth Mental Health Requires a Digital Fasting Protocol",
+        "url": "https://theomniview.blogspot.com/2026/05/the-screen-time-paradox-why-surgeon.html",
+        "genre": "health",
+        "topic": "mental-health",
+        "layer": "latest-news",
+        "labels": [
+          "Health",
+          "Mental Health",
+          "Latest News",
+          "youth mental health",
+          "surgeon general advisory",
+          "screen time risks"
+        ],
+        "slug": "the-screen-time-paradox-why-the-surgeon-generals-advisory-on-youth-mental-health",
+        "published_at": "2026-05-20T21:35:53+00:00",
+        "word_count": 821,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
