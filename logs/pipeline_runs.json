@@ -2830,5 +2830,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-20T19:11:33.065202",
+    "run_end": "2026-05-20T19:13:07.586393",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "8721782755176291978",
+        "title": "The Data Center Drought: Why 'Water-Positive' Tech Claims Are Obscuring Local Water Scarcity",
+        "url": "https://theomniview.blogspot.com/2026/05/the-data-center-drought-why-water.html",
+        "genre": "environment",
+        "topic": "sustainable-living",
+        "layer": "explainers",
+        "labels": [
+          "Environment",
+          "Sustainable Living",
+          "Explainers",
+          "data center water usage",
+          "sustainable AI",
+          "water scarcity"
+        ],
+        "slug": "the-data-center-drought-why-water-positive-tech-claims-are-obscuring-local-water",
+        "published_at": "2026-05-20T19:17:14+00:00",
+        "word_count": 896,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "4435714192378820963",
+        "title": "The Proof-of-Reserve Audit: Why Your Crypto Exchange\u2019s Transparency Claims Are Still a Black Box",
+        "url": "https://theomniview.blogspot.com/2026/05/the-proof-of-reserve-audit-why-your.html",
+        "genre": "finance",
+        "topic": "cryptocurrency",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Finance",
+          "Cryptocurrency",
+          "Opinion & Analysis",
+          "proof of reserve",
+          "crypto exchange solvency",
+          "cryptocurrency risk management"
+        ],
+        "slug": "the-proof-of-reserve-audit-why-your-crypto-exchanges-transparency-claims-are-sti",
+        "published_at": "2026-05-20T19:18:06+00:00",
+        "word_count": 821,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
