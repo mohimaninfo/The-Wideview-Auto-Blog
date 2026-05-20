@@ -2158,5 +2158,49 @@
     "has_video": true,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "1411963119901688245",
+    "title": "The Cable Chokepoint: How Iran\u2019s Undersea Internet Tax Threatens Global Digital Inequality",
+    "url": "https://theomniview.blogspot.com/2026/05/the-cable-chokepoint-how-irans-undersea.html",
+    "genre": "society",
+    "topic": "inequality",
+    "layer": "latest-news",
+    "labels": [
+      "Society",
+      "Inequality & Justice",
+      "Latest News",
+      "digital inequality",
+      "undersea internet cables",
+      "geopolitical infrastructure"
+    ],
+    "slug": "the-cable-chokepoint-how-irans-undersea-internet-tax-threatens-global-digital-in",
+    "published_at": "2026-05-20T02:07:26+00:00",
+    "word_count": 750,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "2166878012343843023",
+    "title": "The Lifetime Subscription Sunset: Why the Plex Price Hike Signals the End of 'Ownable' Streaming Media",
+    "url": "https://theomniview.blogspot.com/2026/05/the-lifetime-subscription-sunset-why.html",
+    "genre": "entertainment",
+    "topic": "streaming",
+    "layer": "latest-news",
+    "labels": [
+      "Entertainment",
+      "Streaming & Digital Media",
+      "Latest News",
+      "Plex lifetime pass",
+      "streaming media ownership",
+      "cord-cutting trends"
+    ],
+    "slug": "the-lifetime-subscription-sunset-why-the-plex-price-hike-signals-the-end-of-owna",
+    "published_at": "2026-05-20T02:08:03+00:00",
+    "word_count": 865,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
