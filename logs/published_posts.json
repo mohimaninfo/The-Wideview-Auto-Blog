@@ -2202,5 +2202,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "5462139391500005389",
+    "title": "The GitHub Leak Audit: How to Scan Your Organization's Repos for Hardcoded Secrets Before CISA Does",
+    "url": "https://theomniview.blogspot.com/2026/05/the-github-leak-audit-how-to-scan-your.html",
+    "genre": "technology",
+    "topic": "cybersecurity",
+    "layer": "reviews",
+    "labels": [
+      "Technology",
+      "Cybersecurity",
+      "Reviews",
+      "GitHub security audit",
+      "hardcoded secrets detection",
+      "CISA credential leak"
+    ],
+    "slug": "the-github-leak-audit-how-to-scan-your-organizations-repos-for-hardcoded-secrets",
+    "published_at": "2026-05-20T06:43:34+00:00",
+    "word_count": 595,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
+  },
+  {
+    "post_id": "5549927300617893806",
+    "title": "The Subscription-Free Travel Audit: How to Reclaim Your Itinerary from 'Bricked' Smart Tech",
+    "url": "https://theomniview.blogspot.com/2026/05/the-subscription-free-travel-audit-how.html",
+    "genre": "lifestyle",
+    "topic": "travel",
+    "layer": "explainers",
+    "labels": [
+      "Lifestyle",
+      "Travel",
+      "Explainers",
+      "smart luggage",
+      "travel tech",
+      "digital minimalism"
+    ],
+    "slug": "the-subscription-free-travel-audit-how-to-reclaim-your-itinerary-from-bricked-sm",
+    "published_at": "2026-05-20T06:44:12+00:00",
+    "word_count": 956,
+    "has_video": true,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
