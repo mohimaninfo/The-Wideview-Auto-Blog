@@ -2986,5 +2986,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-21T02:00:59.924182",
+    "run_end": "2026-05-21T02:02:17.423155",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "5676388251996271638",
+        "title": "The Microgrid Rebellion: How Local Communities Are Defeating AI Data Center Energy Demands",
+        "url": "https://theomniview.blogspot.com/2026/05/the-microgrid-rebellion-how-local.html",
+        "genre": "environment",
+        "topic": "renewable-energy",
+        "layer": "case-studies",
+        "labels": [
+          "Environment",
+          "Renewable Energy",
+          "Case Studies",
+          "microgrid",
+          "renewable energy",
+          "AI data center"
+        ],
+        "slug": "the-microgrid-rebellion-how-local-communities-are-defeating-ai-data-center-energ",
+        "published_at": "2026-05-21T02:06:41+00:00",
+        "word_count": 752,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "4202006404897088499",
+        "title": "The Remote-Work Hardware Lockdown: 7 Ways to Defend Your Home Office Against 'Bricked' Enterprise Devices",
+        "url": "https://theomniview.blogspot.com/2026/05/the-remote-work-hardware-lockdown-7.html",
+        "genre": "business",
+        "topic": "remote-work",
+        "layer": "listicles",
+        "labels": [
+          "Business",
+          "Remote Work & Future of Work",
+          "Listicles",
+          "remote-work security",
+          "enterprise hardware management",
+          "home office cybersecurity"
+        ],
+        "slug": "the-remote-work-hardware-lockdown-7-ways-to-defend-your-home-office-against-bric",
+        "published_at": "2026-05-21T02:07:17+00:00",
+        "word_count": 846,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
