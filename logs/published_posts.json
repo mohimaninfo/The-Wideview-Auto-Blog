@@ -2554,5 +2554,49 @@
     "has_video": false,
     "image_count": 1,
     "reference_count": 4
+  },
+  {
+    "post_id": "6841265699021311506",
+    "title": "The Entropy of Memory: Why Physics Explains Our Emotional Resilience",
+    "url": "https://theomniview.blogspot.com/2026/05/the-entropy-of-memory-why-physics.html",
+    "genre": "science",
+    "topic": "physics",
+    "layer": "opinion-analysis",
+    "labels": [
+      "Science",
+      "Physics",
+      "Opinion & Analysis",
+      "physics of memory",
+      "entropy and psychology",
+      "neuroscience of trauma"
+    ],
+    "slug": "the-entropy-of-memory-why-physics-explains-our-emotional-resilience",
+    "published_at": "2026-05-21T06:46:13+00:00",
+    "word_count": 1040,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 3
+  },
+  {
+    "post_id": "3120886393356365118",
+    "title": "The Robotics Liability Gap: Why Autonomous 'Cleaning' Bots Are Creating New Legal Hazards for Small Businesses",
+    "url": "https://theomniview.blogspot.com/2026/05/the-robotics-liability-gap-why.html",
+    "genre": "technology",
+    "topic": "robotics",
+    "layer": "latest-news",
+    "labels": [
+      "Technology",
+      "Robotics",
+      "Latest News",
+      "autonomous service robots",
+      "robotics liability",
+      "AI insurance risks"
+    ],
+    "slug": "the-robotics-liability-gap-why-autonomous-cleaning-bots-are-creating-new-legal-h",
+    "published_at": "2026-05-21T06:46:54+00:00",
+    "word_count": 735,
+    "has_video": false,
+    "image_count": 1,
+    "reference_count": 4
   }
 ]
