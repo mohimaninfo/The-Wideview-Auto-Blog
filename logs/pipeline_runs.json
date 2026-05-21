@@ -3090,5 +3090,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-21T10:28:54.287088",
+    "run_end": "2026-05-21T10:30:06.190953",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "6267451967103308097",
+        "title": "The Semantic Decay Audit: Why LLM-Driven Note-Taking Apps Are Eroding Knowledge Synthesis",
+        "url": "https://theomniview.blogspot.com/2026/05/the-semantic-decay-audit-why-llm-driven.html",
+        "genre": "education",
+        "topic": "learning-science",
+        "layer": "explainers",
+        "labels": [
+          "Education",
+          "Learning Science",
+          "Explainers",
+          "cognitive offloading",
+          "learning science",
+          "knowledge synthesis"
+        ],
+        "slug": "the-semantic-decay-audit-why-llm-driven-note-taking-apps-are-eroding-knowledge-s",
+        "published_at": "2026-05-21T10:34:19+00:00",
+        "word_count": 1188,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      },
+      {
+        "post_id": "5665200478252797937",
+        "title": "The Neuro-Metabolic Clock: Why Your Midlife Menopause Symptoms Are Linked to Cellular Energy Deficits",
+        "url": "https://theomniview.blogspot.com/2026/05/the-neuro-metabolic-clock-why-your.html",
+        "genre": "science",
+        "topic": "biology",
+        "layer": "latest-news",
+        "labels": [
+          "Science",
+          "Biology & Life Sciences",
+          "Latest News",
+          "menopause symptoms",
+          "cellular energy metabolism",
+          "mitochondrial health"
+        ],
+        "slug": "the-neuro-metabolic-clock-why-your-midlife-menopause-symptoms-are-linked-to-cell",
+        "published_at": "2026-05-21T10:35:05+00:00",
+        "word_count": 766,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
