@@ -3194,5 +3194,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-21T16:32:52.588899",
+    "run_end": "2026-05-21T16:33:36.414671",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "2531361873512140083",
+        "title": "The Nitrate-Vitamin C Synergy: A Nutritional Case Study on Mitigating Dietary Carcinogens",
+        "url": "https://theomniview.blogspot.com/2026/05/the-nitrate-vitamin-c-synergy.html",
+        "genre": "science",
+        "topic": "climate-environment",
+        "layer": "case-studies",
+        "labels": [
+          "Science",
+          "Climate & Environment",
+          "Case Studies",
+          "nitrate-vitamin C synergy",
+          "dietary carcinogens",
+          "nutritional science"
+        ],
+        "slug": "the-nitrate-vitamin-c-synergy-a-nutritional-case-study-on-mitigating-dietary-car",
+        "published_at": "2026-05-21T16:38:11+00:00",
+        "word_count": 779,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 2
+      },
+      {
+        "post_id": "2130744463903024937",
+        "title": "The Bricked Home Office: How to Audit Your Smart Gadgets for Remote-Kill Switch Vulnerabilities",
+        "url": "https://theomniview.blogspot.com/2026/05/the-bricked-home-office-how-to-audit.html",
+        "genre": "technology",
+        "topic": "gadgets",
+        "layer": "explainers",
+        "labels": [
+          "Technology",
+          "Gadgets & Hardware",
+          "Explainers",
+          "smart home gadgets",
+          "remote-kill switch",
+          "device obsolescence"
+        ],
+        "slug": "the-bricked-home-office-how-to-audit-your-smart-gadgets-for-remote-kill-switch-v",
+        "published_at": "2026-05-21T16:38:36+00:00",
+        "word_count": 1002,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
