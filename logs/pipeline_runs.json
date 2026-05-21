@@ -3142,5 +3142,57 @@
         "reference_count": 4
       }
     ]
+  },
+  {
+    "run_start": "2026-05-21T13:52:42.917430",
+    "run_end": "2026-05-21T13:53:42.490290",
+    "posts_attempted": 2,
+    "posts_succeeded": 2,
+    "results": [
+      {
+        "post_id": "8792716877461334500",
+        "title": "The Anxiety-Depression Brain Map: How Wave-Pattern Analysis Predicts Mental Health Vulnerability by Age 13",
+        "url": "https://theomniview.blogspot.com/2026/05/the-anxiety-depression-brain-map-how.html",
+        "genre": "science",
+        "topic": "neuroscience",
+        "layer": "explainers",
+        "labels": [
+          "Science",
+          "Neuroscience",
+          "Explainers",
+          "brain wave patterns",
+          "childhood anxiety prediction",
+          "neuroscience of depression"
+        ],
+        "slug": "the-anxiety-depression-brain-map-how-wave-pattern-analysis-predicts-mental-healt",
+        "published_at": "2026-05-21T13:58:06+00:00",
+        "word_count": 941,
+        "has_video": true,
+        "image_count": 1,
+        "reference_count": 5
+      },
+      {
+        "post_id": "8510116433422424288",
+        "title": "The Undersea Sovereignty Crisis: Why Global Internet Infrastructure is the New Geopolitical Battlefield",
+        "url": "https://theomniview.blogspot.com/2026/05/the-undersea-sovereignty-crisis-why.html",
+        "genre": "society",
+        "topic": "digital-society",
+        "layer": "opinion-analysis",
+        "labels": [
+          "Society",
+          "Digital Society",
+          "Opinion & Analysis",
+          "internet sovereignty",
+          "undersea cables",
+          "geopolitics"
+        ],
+        "slug": "the-undersea-sovereignty-crisis-why-global-internet-infrastructure-is-the-new-ge",
+        "published_at": "2026-05-21T13:58:41+00:00",
+        "word_count": 881,
+        "has_video": false,
+        "image_count": 1,
+        "reference_count": 4
+      }
+    ]
   }
 ]
